@@ -1,0 +1,14 @@
+# 谷歌浏览器驱动路径
+driver:
+  driver: "D:\\Python\\Lib\\site-packages\\selenium\\webdriver\\chrome\\chromedriver.exe"
+# 测试地址
+url:
+  url: https://www.baidu.com
+# 报告存放路径
+path:
+  path: D:\\report
+# 发送邮件
+sendmail:
+  smtpserver: stmp.163.com
+  sender: XXX
+  psw: XXX

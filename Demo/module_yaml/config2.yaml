@@ -1,0 +1,7 @@
+
+stg:
+  ip: 30.4.77.195
+  path: /wls/hive/
+prd:
+  ip: 30.4.66.49
+  path: /hive/dw/

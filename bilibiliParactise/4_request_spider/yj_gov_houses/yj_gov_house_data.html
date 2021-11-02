@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>商品房信息发布平台首页</title>
+    <script type="text/javascript" src="/Scripts/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="/areas/public/scripts/utility.js"></script>
+    <link href="/Areas/Public/Css/adapteScreen.css?v=1.1" rel="stylesheet" />
+    
+    <script type="text/javascript" src="/Scripts/dhtmlx/dhtmlxchart.js"></script>
+    <script type="text/javascript">
+        function SetWinHeight(obj) {
+            var win = obj;
+            $(obj).show();
+            if (document.getElementById) {
+                if (win && !window.opera) {
+                    var a = 0, b = 0;
+                    if (win.contentDocument && win.contentDocument.body.offsetHeight)
+                        a = win.contentDocument.body.offsetHeight;
+                    if (win.Document && win.Document.body.scrollHeight)
+                        b = win.Document.body.scrollHeight;
+                    win.height = Math.max(a, b);
+                }
+                $(".loadingdiv").hide();
+            }
+        }
+
+        function iframeload(obj) {
+            $(obj).show();
+            $(".loadingdiv").hide();
+        }
+
+        function bindButton() {
+            //首页按钮
+            $("#btnFirst").click(function () {
+                var pageIndex = 1;
+                search(pageIndex);
+            });
+            //上一页按钮
+            $("#btnPrev").click(function () {
+                var pageIndex = parseInt($("#lblPageIndex").html()) - 1;
+                search(pageIndex);
+            });
+            //下一页按钮
+            $("#btnNext").click(function () {
+                var pageIndex = parseInt($("#lblPageIndex").html()) + 1;
+                search(pageIndex);
+            });
+            //尾页按钮
+            $("#btnLast").click(function () {
+                var pageIndex = $("#lblPageCount").html();
+                search(pageIndex);
+            });
+        }
+
+        function search(pageIndex) {
+            var jgid = GetQueryString("jgid");
+            //var FormData = $("form[id='form1']").serialize();
+            var kind = $("#kind").val();
+            var key = $("#key").val();
+            var ysxmmc = "", ysxkzh = "", kfsmc = "", kfxmmc = "";
+            var pageSize = 10;
+            if (kind == 0) {
+                ysxmmc = key;
+            }
+            else if (kind == 1) {
+                ysxkzh = key;
+            }
+            else if (kind == 2) {
+                kfsmc = key;
+            }
+            else if (kind == 3) {
+                kfxmmc = key;
+            }
+            $.ajax({
+                type: "get",
+                url: "/api/GzymApi/GetIndexSearchData",
+                data: { Jgid: jgid, PageIndex: pageIndex, PageSize: pageSize, Ysxmmc: ysxmmc, Ysxkzh: ysxkzh, Kfsmc: kfsmc, Kfxmmc: kfxmmc },
+                success: function (data) {
+                    if (data.Succeed) {
+                        var trData = "";
+                        if (data.Data.length == 0) {
+                            $("#lblPageIndex").html(1);
+                            $("#lblRecordCount").html(0);
+                            $("#lblPageCount").html(1);
+                            //
+                            $("#lblFirst").html("首页&nbsp;");
+                            $("#lblPrev").html("上一页&nbsp;");
+                            $("#lblNext").html("下一页&nbsp;");
+                            $("#lblLast").html("尾页&nbsp;");
+                            bindButton();
+                        }
+                        //if (kind == 3) {
+                        //}
+                        //else {
+                            for (var i = 0; i < data.Data.length; i++) {
+                                if (i == 0) {
+                                    $("#lblPageIndex").html(pageIndex);
+                                    $("#lblRecordCount").html(data.Data[i].RecordCount);
+                                    var pageCount = Math.ceil(data.Data[i].RecordCount / 10);
+                                    $("#lblPageCount").html(pageCount);
+                                    if (pageCount <= 1) {
+                                        $("#lblFirst").html("首页&nbsp;");
+                                        $("#lblPrev").html("上一页&nbsp;");
+                                        $("#lblNext").html("下一页&nbsp;");
+                                        $("#lblLast").html("尾页&nbsp;");
+                                    }
+                                    else if (pageIndex == 1)
+                                    {
+                                        $("#lblFirst").html("首页&nbsp;");
+                                        $("#lblPrev").html("上一页&nbsp;");
+                                        $("#lblNext").html("<a id=\"btnNext\" href=\"javascript:void(0)\">下一页</a>&nbsp;");
+                                        $("#lblLast").html("<a id=\"btnLast\" href=\"javascript:void(0)\">尾页</a>&nbsp;");
+                                    }
+                                    else if (pageIndex >= pageCount)
+                                    {
+                                        $("#lblFirst").html("<a id=\"btnFirst\" href=\"javascript:void(0)\">首页</a>&nbsp;");
+                                        $("#lblPrev").html("<a id=\"btnPrev\" href=\"javascript:void(0)\">上一页</a>&nbsp;");
+                                        $("#lblNext").html("下一页&nbsp;");
+                                        $("#lblLast").html("尾页&nbsp;");
+                                    }
+                                    else
+                                    {
+                                        $("#lblFirst").html("<a id=\"btnFirst\" href=\"javascript:void(0)\">首页</a>&nbsp;</label>");
+                                        $("#lblPrev").html("<a id=\"btnPrev\" href=\"javascript:void(0)\">上一页</a>&nbsp;</label>");
+                                        $("#lblNext").html("<a id=\"btnNext\" href=\"javascript:void(0)\">下一页</a>&nbsp;</label>");
+                                        $("#lblLast").html("<a id=\"btnLast\" href=\"javascript:void(0)\">尾页</a>&nbsp;</label>");
+                                    }
+                                    bindButton();
+                                }
+                                trData += "<tr bgcolor=\"#eff7ef\" onmouseover=\"this.style.backgroundColor='#EAEAF9'\" onmouseout=\"this.style.backgroundColor=''\">";
+                                trData += "<td align=\"left\" height=\"30\">";
+                                trData += "<a href='/public/web/ysxm?ysxmid=" + data.Data[i].YSXMID + "&jgid=" + data.Data[i].DJJG + "' target=\"_blank\">" + data.Data[i].YSXMMC + "</a>";
+                                trData += "</td>";
+
+                                //判断是否打开电子证照
+                                xkz = "<td align=\"center\"><a href='/public/web/Yszxx?ysxmid=" + data.Data[i].YSXMID + "&jgid=" + data.Data[i].DJJG + "' target=\"_blank\">" + data.Data[i].XKZH + "</a></td>";
+
+                                if (data.Data[i].YSXKDZZZPATH != null && data.Data[i].YSXKDZZZPATH != "") {
+                                    if ($("#ISCKDZZZ").val() == "1") {
+                                        xkz = "<td align=\"center\"><a href=\"/public/web/showDzzz?path=" + encodeURI(data.Data[i].YSXKDZZZPATH) + " \" target=\"_blank\">" + data.Data[i].XKZH + "</a></td>";
+                                    } else if ($("#ISCKDZZZ").val() == "2") {
+                                        if ($("#ZZFZSJ").val() != "") {
+                                            if (new Date(Date.parse(data.Data[i].SCFZSJ)) > new Date(Date.parse($("#ZZFZSJ").val().replace(/-/g, "/"))))
+                                                xkz = "<td align=\"center\"><a href=\"/public/web/showDzzz?path=" + encodeURI(data.Data[i].YSXKDZZZPATH) + " \" target=\"_blank\">" + data.Data[i].XKZH + "</a></td>";
+                                        }
+                                    }
+                                }
+                                trData += xkz;
+
+                                trData += "<td align=\"center\">";
+                                trData += "<a href=\"/public/web/KfxmList?kfsid=" + data.Data[i].KFQYBM + "&jgid=" + data.Data[i].DJJG + "\" target=\"_blank\">" + data.Data[i].KFQYMC + "</a>";
+                                trData += "</td>";
+                                trData += "<td align=\"center\">" + data.Data[i].QXMC + "</td>";
+                                trData += "</tr>";
+                            }
+                            $("#listtable tr:gt(2)").remove();
+                            $("#listtable tr:eq(2)").after(trData);
+                        //}
+                    }
+                }
+            });
+        }
+
+        $(function () {
+            //查询按钮
+            $("#btnSearch").click(function () {
+                var pageIndex = 1;
+                search(pageIndex);
+            });
+            bindButton();
+
+            var chart1 = new dhtmlXChart({
+                view: "pie3D",
+                container: "chart1",
+                value: "#value#",
+                pieInnerText: "#value#",
+                legend: {
+                    layout: "y",
+                    width: 120,
+                    align: "right",
+                    valign: "middle",
+                    marker: {
+                        type: "square",
+                        width: 15
+                    },
+                    template: "#areaname#"
+                }
+            })
+            chart1.parse(data, "json");
+
+            var chart2 = new dhtmlXChart({
+                view: "bar",
+                container: "chart2",
+                value: "#value#",
+                color: "#66cc33",
+                width: 30,
+                tooltip: "#type#",
+                xAxis: {
+                    title: "商品房类型",
+                    template: "#type#"
+                },
+                yAxis: {
+                    template: "{obj}",
+                    title: "成交套数(套）"
+                }
+
+            })
+            chart2.parse(data1, "json");
+        });
+
+        var data = [];var data1 = [{ value:"26", type:"住宅" },{ value:"1", type:"商业" },{ value:"0", type:"办公楼" },{ value:"10", type:"其他" }];;
+    </script>
+
+    
+    <link href="/Scripts/dhtmlx/dhtmlxchart.css" rel="stylesheet" type="text/css" />
+    <link href="/Areas/Public/Css/home.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0px;
+            FONT-SIZE: 9pt;
+            BACKGROUND-COLOR: #003e7b;
+        }
+
+        #s11 { /*float:left; width:591px;*/
+            width: 745px; /*height:305px;*/
+            height: 250px; /*margin-left:9px;*/
+            margin: 0 auto;
+        }
+
+        #s12 {
+            width: 170px;
+            height: 333px;
+            float: left;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        #today, #lastmonth {
+            border: solid #ccc 1px;
+            background-color: #efefef; /*width:580px;*/
+            width: 100%;
+        }
+
+        #lastmonth {
+            background-color: #fff;
+        }
+
+        .titlediv {
+            font-size: 14px;
+            font-weight: bold;
+            padding: 5px 0;
+            position: relative; /*width:580px;*/
+            width: 100%;
+            text-align: center;
+        }
+
+        .titlediv2 {
+            font-size: 14px;
+            font-weight: bold;
+            padding: 10px 0;
+            position: relative;
+            width: 360px;
+            text-align: center;
+        }
+
+        img {
+            border: 0px;
+        }
+
+        #more1 {
+            position: absolute;
+            left: 522px;
+            display: inline;
+        }
+
+        .style1 {
+            /*width: 557px;*/
+            width: 100%;
+            border: 1px solid #000000;
+            background-color: #FFFFFF;
+            border-collapse: collapse;
+        }
+
+            .style1 tr {
+                line-height: 30px;
+            }
+
+            .style1 th,.style1 td {
+                border: 1px solid #000000;
+                text-align: center;
+            }
+
+        .tablediv {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        #toolbar div {
+            float: left;
+        }
+
+        #toolbar {
+            padding: 5px 0;
+            height: 22px;
+            text-indent: 20px;
+        }
+
+        #more2 {
+            display: inline;
+            position: absolute;
+            left: 11px;
+        }
+
+        #map1, #map2, #newpresell, #newsell {
+            width: 360px;
+            height: 210px;
+            border: 1px solid #ccc;
+            float: left;
+        }
+
+        #map1, #map2 {
+            height: 230px;
+        }
+
+        #s1 {
+            /*margin-bottom:20px;*/
+        }
+
+        #map1, #newpresell {
+            margin: 0 22px 0 9px;
+            display: inline;
+        }
+
+        #s3 {
+            height: 24px;
+            background-image: url('images/bar1.jpg');
+            background-repeat: no-repeat;
+            background-position: 5px 0;
+            margin-bottom: 10px;
+        }
+
+        #more3, #more4 {
+            position: absolute;
+            left: 308px;
+            display: inline;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            text-indent: 20px;
+        }
+
+        li {
+            background-image: url(images/listbg.jpg);
+            background-repeat: no-repeat;
+            background-position: 5px 3px;
+            margin: 6px 0;
+        }
+
+        .linediv {
+            width: 340px;
+            margin: 0px 10px 3px 10px;
+            border-bottom: 1px solid #F00;
+            line-height: 0px;
+        }
+
+        #chart1, #chart2 {
+            height: 200px;
+            width: 360px;
+            line-height: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="width:100%; height:130px; margin:0 auto; position:relative;  ">
+    <div id="headerImg" style="width:100%; height: 130px;position:absolute;top:0;left:0; z-index:1">
+        <img src="../../../Areas/Public/Images/yjlogo.gif " style="width:100%; height:100%;" />
+    </div>
+    <div style="width:100%; height: 130px;position:absolute;bottom:0;left:0; z-index:22">
+        <table class="headerFun" height="130" cellspacing="0" cellpadding="0" width="770" border="0" style="max-width:770px; width:100%;">
+            <tbody>
+                <tr>
+                    <td valign="bottom" width="467" height="130">
+                        &nbsp;&nbsp;
+                        <b>
+                            
+                        </b>
+                    </td>
+                    <td valign="bottom" width="603" height="100" align="right">
+                        
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div> 
+    
+
+<div style="width: 100%; margin: 0 auto;">
+    <table style="border-collapse: collapse" cellspacing="0" cellpadding="0" width="100%" align="center" bgcolor=#ffffff border=0>
+        <tr>
+            <td height="32" width="100%" background="../../../Areas/Public/Images/nav_bg2.gif" style="padding-left:15px;">
+                您的位置：
+                <a id="homepage" href="http://www.yjjs.gov.cn//">首页</a>
+                &gt; 商品房信息发布首页
+                <span id="townentry" style="margin-left: 20px; display: none;">
+                    （区县入口：
+                    <a href="http://219.129.189.10:8090/public/web/indexYj">阳江市</a>
+                    <a href="http://219.129.189.10:8098/user_kfs.aspx?lid=a88b3b89-472c-493b-9b4b-970f7848114f">海陵岛</a>
+                    <a href="http://219.129.189.10:8098/user_kfs.aspx?lid=c4407134-22b9-4a2e-9556-9df063088aca ">阳春市</a>
+                    <a href="http://219.129.189.10:8098/user_kfs.aspx?lid=caf441f1-a969-4682-8e63-4586ffe5caa8">阳西县</a>
+                    <a href="http://219.129.189.10:8098/user_kfs.aspx?lid=acf37d73-3bf0-4819-9f55-3a9279f54ab8">阳东县</a>
+                    ）
+                </span>
+                <span id="townentry" style="margin-left:20px;">
+                    （区县入口：
+                        <a href="?jgid=d9602e29-1374-4860-8ad5-f259d239e446">阳东区</a>
+                        <a href="?jgid=b9a24540-1f91-4529-9b4e-8152795335c4">海陵岛</a>
+                        <a href="?jgid=6a7af7f3-bd83-4eec-a664-51b37cda6bea">阳西县</a>
+                        <a href="?jgid=d1b36952-2cfd-4b2c-810b-c1295c008e1a">阳春市</a>
+                        <a href="?jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf">江城区</a>
+                    ）
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-top:10px;">
+                <div id="statistics" style="display:block;">
+                    <div id="s1" style="width:1200px;margin:auto">
+                        <div id="s11" style="display:block;width:1200px">
+                            <div id="today">
+                                <div class="titlediv">
+
+                                        <span id="table1title">2021年10月18日江城区商品房成交基本情况表</span>
+                                </div>
+                                <div class="tablediv">
+                                    <table class="style1" cellspacing="0" id="indextable1">
+                                        <tr>
+                                            <th style="width:200px;"></th>
+                                            <th class="style8">成交套数</th>
+                                            <th class="style8">成交建筑面积</th>
+                                            <th>成交金额</th>
+                                            <th>成交楼房均价</th>
+                                        </tr>
+                                            <tr>
+                                                <td>总数</td>
+                                                <td>37</td>
+                                                <td>3471.58</td>
+                                                <td>18669352</td>
+                                                <td>5377.77</td>
+                                            </tr>
+                                            <tr>
+                                                <td>住宅</td>
+                                                <td>26</td>
+                                                <td>3114.70</td>
+                                                <td>17302101</td>
+                                                <td>5554.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td>商业</td>
+                                                <td>1</td>
+                                                <td>86.55</td>
+                                                <td>680984</td>
+                                                <td>7868.10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>办公楼</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>其他（包括车房、车库、车位）</td>
+                                                <td>10</td>
+                                                <td>270.33</td>
+                                                <td>686267</td>
+                                                <td>2538.63</td>
+                                            </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div id="s11" style="display:none;width:1200px">
+                            <div id="today">
+                                <div class="titlediv">
+                                        <span id="table1title">2021年10月江城区商品房成交基本情况表</span>
+                                </div>
+                                <div class="tablediv">
+                                    <table class="style1" cellspacing="0" id="indextable1">
+                                        <tr>
+                                            <th style="width:200px;"></th>
+                                            <th class="style8">成交套数</th>
+                                            <th class="style8">成交面积</th>
+                                            <th>成交金额</th>
+                                            <th>成交楼房均价</th>
+                                        </tr>
+                                            <tr>
+                                                <td>总数</td>
+                                                <td>713</td>
+                                                <td>61883.02</td>
+                                                <td>291695452</td>
+                                                <td>4713.66</td>
+                                            </tr>
+                                            <tr>
+                                                <td>住宅</td>
+                                                <td>402</td>
+                                                <td>49425.89</td>
+                                                <td>248233423</td>
+                                                <td>5022.34</td>
+                                            </tr>
+                                            <tr>
+                                                <td>商业</td>
+                                                <td>45</td>
+                                                <td>4395.55</td>
+                                                <td>25962819</td>
+                                                <td>5906.61</td>
+                                            </tr>
+                                            <tr>
+                                                <td>办公楼</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>其他（包括车房、车库、车位）</td>
+                                                <td>266</td>
+                                                <td>8061.58</td>
+                                                <td>17499210</td>
+                                                <td>2170.69</td>
+                                            </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="s2" style="display:none;">
+                    <div id="map1">
+                        <div id="chart1"></div>
+                        <div style="text-align:center; font-weight:bold;">今日各区商品房成交份额图</div>
+                    </div>
+                    <div id="map2">
+                        <div id="chart2"></div>
+                        <div style="text-align:center; font-weight:bold;"><span id="map2title">今日商品房成交需求类型图</span></div>
+                        <script type="text/javascript">
+                            $("#map2title").html('今日'+'江城区'+'商品房成交需求类型图');
+                        </script>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form name="form1" id="form1">
+                    <table id="listtable" cellspacing="1" cellpadding="4" width="1200" align="center" bgcolor="#cccccc" border="0">
+                        <tr>
+                            <td height="24" style="line-height: 150%;" colspan="4">
+                                请选择：
+                                <select name="kind" id="kind">
+                                    <option value="0">预售项目名称</option>
+                                    <option value="1">预售许可证号</option>
+                                    <option value="2">开发公司名称</option>
+                                    <option value="3">开发项目名称</option>
+                                </select>
+                                <input name="key" type="text" id="key">
+                                <input type="button" id="btnSearch" value="查&nbsp;&nbsp;询" class="buttonface1">
+                                <input id="ISCKDZZZ" type="hidden" value="1" />
+                                <input id="ZZFZSJ" type="hidden" value="" />
+                            </td>
+                        </tr>
+                        <tr align="middle" bgcolor="#eeeeee">
+                            <td width="100%" height="40" align="center" colspan="4">
+                                <label id="ResultTitle" style="font-weight:bold; font-size:x-large;">阳江市商品房预售项目列表</label>
+                                <label style="font-size:12px;color:red;">（注：商品房预售项目列表及楼盘表数据延迟一天发布）</label>
+                            </td>
+                        </tr>
+                        <tr id="titletr" bgcolor="white" style="line-height:25px;">
+                            <th width="340" align="center"><strong>预售项目名称</strong></th>
+                            <th width="130" align="center"><strong>预售许可证号</strong></th>
+                            <th width="210" align="center"><strong>开发企业</strong></th>
+                            <th width="65" align="center"><strong>所在区县</strong></th>
+                        </tr>
+                            <tr bgcolor="#eff7ef" onmouseover="this.style.backgroundColor='#EAEAF9'" onmouseout="this.style.backgroundColor=''">
+                                <td align="left" height="30">
+                                    <a href='/public/web/ysxm?ysxmid=0C108A90442C4AE4BB491C30E6D27F57&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf' target="_blank">保利中央公园</a>
+                                </td>
+                                <td align="center">
+                                <a href='/public/web/showDzzz?path=YSXKDZZZ%2f20211014%2f%e9%98%b3%e9%a2%84%e8%ae%b8%e8%af%81%e5%ad%972021052%e5%8f%b7_ec3dbbe2ce224c0dabf2ca9f2a49e8ec.pdf' target="_blank">阳预许证字2021052号</a>
+
+                                    
+                                </td>
+                                <td align="center">
+                                    <a href="/public/web/KfxmList?kfsid=4417021000000059&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf" target="_blank">阳江保利弘盛房地产有限公司</a>
+                                </td>
+                                <td align="center">阳江市</td>
+                            </tr>
+                            <tr bgcolor="#eff7ef" onmouseover="this.style.backgroundColor='#EAEAF9'" onmouseout="this.style.backgroundColor=''">
+                                <td align="left" height="30">
+                                    <a href='/public/web/ysxm?ysxmid=22C02528A4B04DB9891116971F0F5571&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf' target="_blank">锦峰湖景华庭</a>
+                                </td>
+                                <td align="center">
+                                <a href='/public/web/showDzzz?path=YSXKDZZZ%2f20210930%2f%e9%98%b3%e9%a2%84%e8%ae%b8%e8%af%81%e5%ad%972021048%e5%8f%b7_dd9f8f84669d44739e2c59e99c3e3964.pdf' target="_blank">阳预许证字2021048号</a>
+
+                                    
+                                </td>
+                                <td align="center">
+                                    <a href="/public/web/KfxmList?kfsid=4417027&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf" target="_blank">阳江市练达房地产开发有限公司</a>
+                                </td>
+                                <td align="center">阳江市</td>
+                            </tr>
+                            <tr bgcolor="#eff7ef" onmouseover="this.style.backgroundColor='#EAEAF9'" onmouseout="this.style.backgroundColor=''">
+                                <td align="left" height="30">
+                                    <a href='/public/web/ysxm?ysxmid=C504B6C1395A48EDBECE02D852FC1CF8&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf' target="_blank">上东新城</a>
+                                </td>
+                                <td align="center">
+                                <a href='/public/web/showDzzz?path=YSXKDZZZ%2f20210930%2f%e9%98%b3%e9%a2%84%e8%ae%b8%e8%af%81%e5%ad%972021051%e5%8f%b7_bae178ac473f4b3fa488e771a9abf702.pdf' target="_blank">阳预许证字2021051号</a>
+
+                                    
+                                </td>
+                                <td align="center">
+                                    <a href="/public/web/KfxmList?kfsid=441702141&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf" target="_blank">阳江市宏顺房地产开发有限公司</a>
+                                </td>
+                                <td align="center">阳江市</td>
+                            </tr>
+                            <tr bgcolor="#eff7ef" onmouseover="this.style.backgroundColor='#EAEAF9'" onmouseout="this.style.backgroundColor=''">
+                                <td align="left" height="30">
+                                    <a href='/public/web/ysxm?ysxmid=496CCFC22D074F488881544955561F83&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf' target="_blank">建华花园一期</a>
+                                </td>
+                                <td align="center">
+                                <a href='/public/web/showDzzz?path=YSXKDZZZ%2f20210930%2f%e9%98%b3%e9%a2%84%e8%ae%b8%e8%af%81%e5%ad%972021049%e5%8f%b7_1c473ad535414a2296e1a0ad4b668e5c.pdf' target="_blank">阳预许证字2021049号</a>
+
+                                    
+                                </td>
+                                <td align="center">
+                                    <a href="/public/web/KfxmList?kfsid=4417021000000048&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf" target="_blank">阳江建华汤始房地产开发有限公司</a>
+                                </td>
+                                <td align="center">阳江市</td>
+                            </tr>
+                            <tr bgcolor="#eff7ef" onmouseover="this.style.backgroundColor='#EAEAF9'" onmouseout="this.style.backgroundColor=''">
+                                <td align="left" height="30">
+                                    <a href='/public/web/ysxm?ysxmid=84D6D2B640364EE9BBBDFCFF28CF90E2&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf' target="_blank">建华花园一期</a>
+                                </td>
+                                <td align="center">
+                                <a href='/public/web/showDzzz?path=YSXKDZZZ%2f20210930%2f%e9%98%b3%e9%a2%84%e8%ae%b8%e8%af%81%e5%ad%972021050%e5%8f%b7_eb7fedbc389d45eea64d3ce264ad61a6.pdf' target="_blank">阳预许证字2021050号</a>
+
+                                    
+                                </td>
+                                <td align="center">
+                                    <a href="/public/web/KfxmList?kfsid=4417021000000048&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf" target="_blank">阳江建华汤始房地产开发有限公司</a>
+                                </td>
+                                <td align="center">阳江市</td>
+                            </tr>
+                            <tr bgcolor="#eff7ef" onmouseover="this.style.backgroundColor='#EAEAF9'" onmouseout="this.style.backgroundColor=''">
+                                <td align="left" height="30">
+                                    <a href='/public/web/ysxm?ysxmid=3E2FB2CB5602481194D2BB5CF71752DF&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf' target="_blank">万山汇景花园</a>
+                                </td>
+                                <td align="center">
+                                <a href='/public/web/showDzzz?path=YSXKDZZZ%2f20210930%2f%e9%98%b3%e9%a2%84%e8%ae%b8%e8%af%81%e5%ad%972021046%e5%8f%b7_eed5f0fedd3b41df92b7ae953d4f7367.pdf' target="_blank">阳预许证字2021046号</a>
+
+                                    
+                                </td>
+                                <td align="center">
+                                    <a href="/public/web/KfxmList?kfsid=4417020248&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf" target="_blank">阳江市德丰房地产开发有限公司</a>
+                                </td>
+                                <td align="center">阳江市</td>
+                            </tr>
+                            <tr bgcolor="#eff7ef" onmouseover="this.style.backgroundColor='#EAEAF9'" onmouseout="this.style.backgroundColor=''">
+                                <td align="left" height="30">
+                                    <a href='/public/web/ysxm?ysxmid=B1E40C5131B94F38BA115437542267D4&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf' target="_blank">锦峰花园北区</a>
+                                </td>
+                                <td align="center">
+                                <a href='/public/web/showDzzz?path=YSXKDZZZ%2f20210930%2f%e9%98%b3%e9%a2%84%e8%ae%b8%e8%af%81%e5%ad%972021045%e5%8f%b7_0f795b40c8ba481fb4e65c6484b96b34.pdf' target="_blank">阳预许证字2021045号</a>
+
+                                    
+                                </td>
+                                <td align="center">
+                                    <a href="/public/web/KfxmList?kfsid=4417021000000084&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf" target="_blank">阳江市木赖梁屋置业有限公司</a>
+                                </td>
+                                <td align="center">阳江市</td>
+                            </tr>
+                            <tr bgcolor="#eff7ef" onmouseover="this.style.backgroundColor='#EAEAF9'" onmouseout="this.style.backgroundColor=''">
+                                <td align="left" height="30">
+                                    <a href='/public/web/ysxm?ysxmid=11DD3E70155B49DAB30ABC1D126BC9E8&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf' target="_blank">御品缔景湾二期</a>
+                                </td>
+                                <td align="center">
+                                <a href='/public/web/showDzzz?path=YSXKDZZZ%2f20210930%2f%e9%98%b3%e9%a2%84%e8%ae%b8%e8%af%81%e5%ad%972021047%e5%8f%b7_4d3f73aa785041c6969243183b44cd78.pdf' target="_blank">阳预许证字2021047号</a>
+
+                                    
+                                </td>
+                                <td align="center">
+                                    <a href="/public/web/KfxmList?kfsid=4417020081&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf" target="_blank">阳江市瑞城房地产开发有限公司</a>
+                                </td>
+                                <td align="center">阳江市</td>
+                            </tr>
+                            <tr bgcolor="#eff7ef" onmouseover="this.style.backgroundColor='#EAEAF9'" onmouseout="this.style.backgroundColor=''">
+                                <td align="left" height="30">
+                                    <a href='/public/web/ysxm?ysxmid=E81E558B9AFA42F4AB000FDDEB30B24C&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf' target="_blank">文华峯境花园</a>
+                                </td>
+                                <td align="center">
+                                <a href='/public/web/showDzzz?path=YSXKDZZZ%2f20210918%2f%e9%98%b3%e9%a2%84%e8%ae%b8%e8%af%81%e5%ad%972021043%e5%8f%b7_15468cfc9a0348e59d7208dc1f29ee1c.pdf' target="_blank">阳预许证字2021043号</a>
+
+                                    
+                                </td>
+                                <td align="center">
+                                    <a href="/public/web/KfxmList?kfsid=4417020135&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf" target="_blank">阳江市程氏置业有限公司</a>
+                                </td>
+                                <td align="center">阳江市</td>
+                            </tr>
+                            <tr bgcolor="#eff7ef" onmouseover="this.style.backgroundColor='#EAEAF9'" onmouseout="this.style.backgroundColor=''">
+                                <td align="left" height="30">
+                                    <a href='/public/web/ysxm?ysxmid=CFD88633BA35488DBDC2FF0D1C7CFCD9&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf' target="_blank">建华花园一期</a>
+                                </td>
+                                <td align="center">
+                                <a href='/public/web/showDzzz?path=YSXKDZZZ%2f20210913%2f%e9%98%b3%e9%a2%84%e8%ae%b8%e8%af%81%e5%ad%972021042%e5%8f%b7_e9dedb1a7eea439b8e81a731e9808597.pdf' target="_blank">阳预许证字2021042号</a>
+
+                                    
+                                </td>
+                                <td align="center">
+                                    <a href="/public/web/KfxmList?kfsid=4417021000000048&jgid=480de8f9-4595-490f-adfc-b5ec3eeca2bf" target="_blank">阳江建华汤始房地产开发有限公司</a>
+                                </td>
+                                <td align="center">阳江市</td>
+                            </tr>
+                    </table>
+                    <table width="1200" height="30" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td id="pagetd" valign="middle" style="padding-left:15px;">
+                                总记录数：<label id="lblRecordCount">1259</label> 条
+                                页数：<label id="lblPageIndex">1</label> / <label id="lblPageCount">126</label> 页
+                                每页10条&nbsp;&nbsp;&nbsp;
+
+<label id="lblFirst">首页&nbsp;</label><label id="lblPrev">上一页&nbsp;</label><label id="lblNext"><a id="btnNext" href="javascript:void(0)">下一页</a>&nbsp;</label><label id="lblLast"><a id="btnLast" href="javascript:void(0)">尾页</a>&nbsp;</label>                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</div>
+    <div style="width:100%; margin:0 auto; background-color:white; border-top:1px solid #990000;">
+    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+        <tbody>
+            <tr>
+                <td align="middle" height="4"></td>
+            </tr>
+            <tr>
+                <td id="bottom_banquan" align="middle" height="20">
+                    <font color="#990000">版权所有（All copyrights）：阳江市住房和城乡建设局 联系电话：0662-3428800</font>
+                </td>
+            </tr>
+            <tr>
+                <td align="middle" height="20">
+                    <font color="#990000">&nbsp;技术支持：<a href="http://www.jiahetech.com/" target="_blank" style="color:#990000;">广州佳禾科技有限公司</a>&nbsp;&nbsp;&nbsp;&nbsp;业务联系电话：(020)89999059</font>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div> 
+</body>
+</html>
