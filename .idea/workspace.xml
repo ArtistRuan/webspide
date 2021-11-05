@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="" />
+    <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask/async_flask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask/asyncio_tongbu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask/asyncio_yibu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/selenium_demo/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/selenium_demo/chromedriver_win32.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/selenium_demo/selenium_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_all/yj_house_2021-11-03.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_all/yj_house_2021-11-04.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_day/yj_house_day_2021-11-03.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_day/yj_house_day_2021-11-04.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_week/yj_house_week_2021-11-03.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_week/yj_house_week_2021-11-04.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/config.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,19 +50,34 @@
       </map>
     </option>
   </component>
-  <component name="JupyterTrust" id="5338f78c-18fd-429c-8dee-48ab19cd0521" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="36d59cc3-49e2-455f-b754-065eb0435ff1" />
   <component name="ProjectId" id="1yjCIKImNGPFPManBQydPp0DL2R" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Demo/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\async_flask" />
+      <recent name="G:\desktop\pythonProject\Demo\test" />
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\yj_gov_houses" />
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\2_smtp_email" />
+      <recent name="G:\desktop\pythonProject\csdnParactise" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\yj_gov_houses" />
       <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_kanXiaoiejie" />
@@ -45,14 +85,74 @@
       <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\baidu_translate" />
       <recent name="G:\desktop\pythonProject\Demo\module_yaml" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\desktop\pythonProject\Demo\test" />
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\yj_gov_houses" />
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\2_smtp_email" />
-      <recent name="G:\desktop\pythonProject\csdnParactise" />
-    </key>
   </component>
   <component name="RunManager" selected="Python.yj_gov_house_data">
+    <configuration name="async_flask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask/async_flask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="asyncio_tongbu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask/asyncio_tongbu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="asyncio_yibu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask/asyncio_yibu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,7 +175,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multiprocessing_dummy_pool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="selenium_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,34 +183,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/multiprocessing_dummy_pool" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/selenium_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/multiprocessing_dummy_pool/multiprocessing_dummy_pool.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/selenium_demo/selenium_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,57 +219,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yj_house (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="yj_house" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\yj_gov_houses\yj_house.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.yj_gov_house_data" />
-        <item itemvalue="Python.yj_house (1)" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.multiprocessing_dummy_pool" />
-        <item itemvalue="Python.yj_house" />
+        <item itemvalue="Python.selenium_demo" />
+        <item itemvalue="Python.asyncio_yibu" />
+        <item itemvalue="Python.async_flask" />
+        <item itemvalue="Python.asyncio_tongbu" />
       </list>
     </recent_temporary>
   </component>
@@ -235,12 +269,29 @@
       <workItem from="1635430695519" duration="2973000" />
       <workItem from="1635684890560" duration="11714000" />
       <workItem from="1635769832831" duration="8887000" />
-      <workItem from="1635853515859" duration="3195000" />
+      <workItem from="1635853515859" duration="4409000" />
+      <workItem from="1635950778576" duration="7785000" />
+      <workItem from="1636033129294" duration="3191000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1634472632300">
@@ -251,22 +302,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1632755612082" />
-    <state width="1323" height="305" key="GridCell.Tab.0.bottom" timestamp="1635855811379">
+    <state width="1323" height="200" key="GridCell.Tab.0.bottom" timestamp="1636050895592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="305" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1635855811379" />
-    <state width="1323" height="305" key="GridCell.Tab.0.center" timestamp="1635855811379">
+    <state width="1323" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1636050895592" />
+    <state width="1323" height="200" key="GridCell.Tab.0.center" timestamp="1636050895591">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="305" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1635855811379" />
-    <state width="1323" height="305" key="GridCell.Tab.0.left" timestamp="1635855811378">
+    <state width="1323" height="200" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1636050895591" />
+    <state width="1323" height="200" key="GridCell.Tab.0.left" timestamp="1636050895589">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="305" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1635855811378" />
-    <state width="1323" height="305" key="GridCell.Tab.0.right" timestamp="1635855811379">
+    <state width="1323" height="200" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1636050895589" />
+    <state width="1323" height="200" key="GridCell.Tab.0.right" timestamp="1636050895592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="305" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1635855811379" />
+    <state width="1323" height="200" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1636050895592" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1635092869325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -312,51 +363,55 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$ticketSystem.coverage" NAME="ticketSystem Coverage Results" MODIFIED="1633184319215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ticketSys" />
     <SUITE FILE_PATH="coverage/pythonProject$pandas_kill.coverage" NAME="pandas_kill Coverage Results" MODIFIED="1633702731474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysize" />
     <SUITE FILE_PATH="coverage/pythonProject$yj_house.coverage" NAME="yj_house Coverage Results" MODIFIED="1635691527657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/test" />
     <SUITE FILE_PATH="coverage/pythonProject$requests_more.coverage" NAME="requests_more Coverage Results" MODIFIED="1634560743976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_kanXiaoiejie" />
     <SUITE FILE_PATH="coverage/pythonProject$mysql_connector.coverage" NAME="mysql_connector Coverage Results" MODIFIED="1633970283907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/3_database_related" />
-    <SUITE FILE_PATH="coverage/pythonProject$report_email.coverage" NAME="report_email Coverage Results" MODIFIED="1633965475914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
     <SUITE FILE_PATH="coverage/pythonProject$makeup_monitor.coverage" NAME="makeup_monitor Coverage Results" MODIFIED="1634386323886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/makeup_nation_monitor" />
     <SUITE FILE_PATH="coverage/pythonProject$email_demo.coverage" NAME="email_demo Coverage Results" MODIFIED="1633885797547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
-    <SUITE FILE_PATH="coverage/pythonProject$yj_gov_house_data.coverage" NAME="yj_gov_house_data Coverage Results" MODIFIED="1635854344386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
+    <SUITE FILE_PATH="coverage/pythonProject$yj_gov_house_data.coverage" NAME="yj_gov_house_data Coverage Results" MODIFIED="1636035165662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
     <SUITE FILE_PATH="coverage/pythonProject$json_python.coverage" NAME="json_python Coverage Results" MODIFIED="1633853189388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/4_json_python" />
-    <SUITE FILE_PATH="coverage/pythonProject$email_WithAttchment.coverage" NAME="email_WithAttchment Coverage Results" MODIFIED="1633974275798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
     <SUITE FILE_PATH="coverage/pythonProject$web_requests.coverage" NAME="web_requests Coverage Results" MODIFIED="1634142285231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider" />
     <SUITE FILE_PATH="coverage/pythonProject$multiprocessing_dummy_pool.coverage" NAME="multiprocessing_dummy_pool Coverage Results" MODIFIED="1635700991916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/multiprocessing_dummy_pool" />
-    <SUITE FILE_PATH="coverage/pythonProject$yj_house__1_.coverage" NAME="yj_house (1) Coverage Results" MODIFIED="1635784781310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
-    <SUITE FILE_PATH="coverage/pythonProject$python_excel.coverage" NAME="python_excel Coverage Results" MODIFIED="1634960966933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/1_about_excel" />
     <SUITE FILE_PATH="coverage/pythonProject$re_regexp.coverage" NAME="re_regexp Coverage Results" MODIFIED="1634448370503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/re_regexp" />
-    <SUITE FILE_PATH="coverage/pythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1635781454563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
-    <SUITE FILE_PATH="coverage/pythonProject$easy_mail.coverage" NAME="easy_mail Coverage Results" MODIFIED="1634049924689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
     <SUITE FILE_PATH="coverage/pythonProject$baidu_translate_data.coverage" NAME="baidu_translate_data Coverage Results" MODIFIED="1634369734511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider" />
     <SUITE FILE_PATH="coverage/pythonProject$qiutu_pic.coverage" NAME="qiutu_pic Coverage Results" MODIFIED="1634455409273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/qiutu_pic" />
-    <SUITE FILE_PATH="coverage/pythonProject$4k_pic.coverage" NAME="4k_pic Coverage Results" MODIFIED="1634497635670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic" />
     <SUITE FILE_PATH="coverage/pythonProject$collect_analyze_mysql.coverage" NAME="collect_analyze_mysql Coverage Results" MODIFIED="1634666368959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/3_database_related" />
     <SUITE FILE_PATH="coverage/pythonProject$ask.coverage" NAME="ask Coverage Results" MODIFIED="1634831749494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/test" />
-    <SUITE FILE_PATH="coverage/pythonProject$math_funct.coverage" NAME="math_funct Coverage Results" MODIFIED="1633853037229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/6_math_func" />
-    <SUITE FILE_PATH="coverage/pythonProject$input_threading_demo.coverage" NAME="input_threading_demo Coverage Results" MODIFIED="1634367491549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/input_threading" />
-    <SUITE FILE_PATH="coverage/pythonProject$wordCloud.coverage" NAME="wordCloud Coverage Results" MODIFIED="1633707416954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/2_wordCloud" />
     <SUITE FILE_PATH="coverage/pythonProject$studentsys.coverage" NAME="studentsys Coverage Results" MODIFIED="1633846262366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vipSystem" />
-    <SUITE FILE_PATH="coverage/pythonProject$bs4_BeautifulSoup.coverage" NAME="bs4_BeautifulSoup Coverage Results" MODIFIED="1634490428812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/bs4_demo" />
     <SUITE FILE_PATH="coverage/pythonProject$58_second_houses.coverage" NAME="58_second_houses Coverage Results" MODIFIED="1634493140865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/58_second_houses" />
     <SUITE FILE_PATH="coverage/pythonProject$web_rank_douban.coverage" NAME="web_rank_douban Coverage Results" MODIFIED="1634469827279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_rank_douban" />
-    <SUITE FILE_PATH="coverage/pythonProject$json_response.coverage" NAME="json_response Coverage Results" MODIFIED="1634745051102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
+    <SUITE FILE_PATH="coverage/pythonProject$asyncio_tongbu.coverage" NAME="asyncio_tongbu Coverage Results" MODIFIED="1635959942742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask" />
     <SUITE FILE_PATH="coverage/pythonProject$ai_answer.coverage" NAME="ai_answer Coverage Results" MODIFIED="1633843667564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/5_ai_digital" />
     <SUITE FILE_PATH="coverage/pythonProject$get_config.coverage" NAME="get_config Coverage Results" MODIFIED="1634316588311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/pythonProject$web_domo.coverage" NAME="web_domo Coverage Results" MODIFIED="1634487275694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/bs4_demo" />
-    <SUITE FILE_PATH="coverage/pythonProject$withMasks.coverage" NAME="withMasks Coverage Results" MODIFIED="1633842617533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/3_paddlehub" />
-    <SUITE FILE_PATH="coverage/pythonProject$debug_test.coverage" NAME="debug_test Coverage Results" MODIFIED="1635000933495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/test" />
+    <SUITE FILE_PATH="coverage/pythonProject$asyncio_yibu.coverage" NAME="asyncio_yibu Coverage Results" MODIFIED="1635960100041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask" />
     <SUITE FILE_PATH="coverage/pythonProject$myqr_demo.coverage" NAME="myqr_demo Coverage Results" MODIFIED="1633843023727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/1_myqr" />
     <SUITE FILE_PATH="coverage/pythonProject$paddbleHub.coverage" NAME="paddbleHub Coverage Results" MODIFIED="1633708996488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/3_paddlehub" />
     <SUITE FILE_PATH="coverage/pythonProject$hive_connector.coverage" NAME="hive_connector Coverage Results" MODIFIED="1633973348313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/3_database_related" />
     <SUITE FILE_PATH="coverage/pythonProject$Demo.coverage" NAME="Demo Coverage Results" MODIFIED="1634318445472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
-    <SUITE FILE_PATH="coverage/pythonProject$python_excel__1_.coverage" NAME="python_excel (1) Coverage Results" MODIFIED="1633864380871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/1_about_excel" />
     <SUITE FILE_PATH="coverage/pythonProject$bs4_sanguo_book.coverage" NAME="bs4_sanguo_book Coverage Results" MODIFIED="1634484018072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/sanguo_book" />
+    <SUITE FILE_PATH="coverage/pythonProject$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1635254454285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/test" />
+    <SUITE FILE_PATH="coverage/pythonProject$ticketSystem.coverage" NAME="ticketSystem Coverage Results" MODIFIED="1633184319215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ticketSys" />
+    <SUITE FILE_PATH="coverage/pythonProject$report_email.coverage" NAME="report_email Coverage Results" MODIFIED="1633965475914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
+    <SUITE FILE_PATH="coverage/pythonProject$email_WithAttchment.coverage" NAME="email_WithAttchment Coverage Results" MODIFIED="1633974275798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
+    <SUITE FILE_PATH="coverage/pythonProject$selenium_demo.coverage" NAME="selenium_demo Coverage Results" MODIFIED="1635963708589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/selenium_demo" />
+    <SUITE FILE_PATH="coverage/pythonProject$async_flask.coverage" NAME="async_flask Coverage Results" MODIFIED="1635960024412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask" />
+    <SUITE FILE_PATH="coverage/pythonProject$yj_house__1_.coverage" NAME="yj_house (1) Coverage Results" MODIFIED="1635784781310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
+    <SUITE FILE_PATH="coverage/pythonProject$python_excel.coverage" NAME="python_excel Coverage Results" MODIFIED="1634960966933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/1_about_excel" />
+    <SUITE FILE_PATH="coverage/pythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1635781454563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
+    <SUITE FILE_PATH="coverage/pythonProject$easy_mail.coverage" NAME="easy_mail Coverage Results" MODIFIED="1634049924689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
+    <SUITE FILE_PATH="coverage/pythonProject$4k_pic.coverage" NAME="4k_pic Coverage Results" MODIFIED="1634497635670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic" />
+    <SUITE FILE_PATH="coverage/pythonProject$math_funct.coverage" NAME="math_funct Coverage Results" MODIFIED="1633853037229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/6_math_func" />
+    <SUITE FILE_PATH="coverage/pythonProject$input_threading_demo.coverage" NAME="input_threading_demo Coverage Results" MODIFIED="1634367491549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/input_threading" />
+    <SUITE FILE_PATH="coverage/pythonProject$wordCloud.coverage" NAME="wordCloud Coverage Results" MODIFIED="1633707416954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/2_wordCloud" />
+    <SUITE FILE_PATH="coverage/pythonProject$bs4_BeautifulSoup.coverage" NAME="bs4_BeautifulSoup Coverage Results" MODIFIED="1634490428812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/bs4_demo" />
+    <SUITE FILE_PATH="coverage/pythonProject$json_response.coverage" NAME="json_response Coverage Results" MODIFIED="1634745051102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
+    <SUITE FILE_PATH="coverage/pythonProject$withMasks.coverage" NAME="withMasks Coverage Results" MODIFIED="1633842617533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/3_paddlehub" />
+    <SUITE FILE_PATH="coverage/pythonProject$debug_test.coverage" NAME="debug_test Coverage Results" MODIFIED="1635000933495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/test" />
+    <SUITE FILE_PATH="coverage/pythonProject$python_excel__1_.coverage" NAME="python_excel (1) Coverage Results" MODIFIED="1633864380871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/1_about_excel" />
     <SUITE FILE_PATH="coverage/pythonProject$email_with_pic.coverage" NAME="email_with_pic Coverage Results" MODIFIED="1633963132608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
     <SUITE FILE_PATH="coverage/pythonProject$request_info.coverage" NAME="request_info Coverage Results" MODIFIED="1634560685684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_kanXiaoiejie" />
-    <SUITE FILE_PATH="coverage/pythonProject$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1635254454285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/test" />
     <SUITE FILE_PATH="coverage/pythonProject$unitTest.coverage" NAME="unitTest Coverage Results" MODIFIED="1633182948456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vipSystem" />
     <SUITE FILE_PATH="coverage/pythonProject$openSys.coverage" NAME="openSys Coverage Results" MODIFIED="1632969531688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vipSystem" />
   </component>
