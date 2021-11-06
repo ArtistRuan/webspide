@@ -11,12 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_all/yj_house_2021-11-05.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_day/yj_house_day_2021-11-05.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_week/yj_house_week_2021-11-05.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_gov_house_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_gov_house_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="92ce6e5d-6999-4a52-b49d-a21bf27d147b" />
+  <component name="JupyterTrust" id="c8baecb7-a955-4cf0-aeef-0c544c18f682" />
   <component name="ProjectId" id="1yjCIKImNGPFPManBQydPp0DL2R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -265,6 +260,7 @@
       <workItem from="1636033129294" duration="3191000" />
       <workItem from="1636112596309" duration="601000" />
       <workItem from="1636120134656" duration="1413000" />
+      <workItem from="1636186861767" duration="1257000" />
     </task>
     <servers />
   </component>
