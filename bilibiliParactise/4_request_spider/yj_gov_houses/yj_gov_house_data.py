@@ -7,7 +7,7 @@ import demjson as demjson
 '''
 @title: json_response
 @projectName pythonProject
-@description: TODO
+@description: 网站采集
 @author ruanshikao
 @date 2021/10/20 22:39
 '''
