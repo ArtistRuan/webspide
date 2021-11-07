@@ -723,6 +723,7 @@ def main():
             # proxies = {"HTTP": '27.42.168.46:55481'}
 
             parse_insert(proxies)
+            # call stoted function
             data_insert_day_table()
             db_save_excel_days()
             db_save_excel_calc_day()

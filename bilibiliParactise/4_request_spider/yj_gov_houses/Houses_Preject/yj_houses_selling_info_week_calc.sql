@@ -22,7 +22,7 @@ SELECT
     ,SUM(today_sold_not_house_num) AS week_sold_not_house_num
     ,MAX(CASE WHEN DATE_FORMAT(data_date,'%Y-%m-%d') = CURRENT_DATE() THEN not_house_avg_price ELSE NULL END) AS not_house_avg_price
     ,CURRENT_DATE() AS data_date
-FROM yj_houses_selling_info_day WHERE YEARWEEK(DATE_FORMAT(data_date,'%Y-%m-%d'),1) = YEARWEEK(NOW())
+FROM yj_houses_selling_info_day WHERE YEARWEEK(DATE_FORMAT(data_date,'%Y-%m-%d'),1) = YEARWEEK(NOW(),1)
     GROUP BY project_name ORDER BY project_name
 ;
 END$$
