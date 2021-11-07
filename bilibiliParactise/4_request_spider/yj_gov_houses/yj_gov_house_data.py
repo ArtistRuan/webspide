@@ -49,7 +49,209 @@ def analyze_data():
 
     return data
 
+def send_email_byhand():
+    # 发件人和收件人信息
+    sender = 'm2ruan@126.com'
+    receivers = ['m2ruan@126.com','1135965756@qq.com']
+    # receivers = ['m2ruan@126.com', 'liangyangruan@qq.com']
+    mail_content = '''
+    尊敬的夫人：
+        请查收今日数据。
 
+    '''
+
+    # 创建一个带附件的实例
+    message = MIMEMultipart()
+    message['From'] = Header("m2ruan@126.com")
+    message['To'] = Header("老婆")
+    # 抄送
+    message['Cc'] = 'liangyangruan@qq.com'
+    subject = '本日量网签数据（含阳江江城及阳东）'
+    message['Subject'] = Header(subject, 'utf-8')
+
+    # 邮件正文内容
+    message.attach(MIMEText(mail_content, 'plain', 'utf-8'))
+
+    # 构造附件1，传送当前目录下的test.txt文件
+    # file_name = 'yj_house_' + str(time.strftime('%Y-%m-%d', time.localtime(time.time())))
+    file_path = './yj_house_all/yj_house_' + '2021-11-06' + '.xlsx'
+    f = open(file_path, 'rb')
+    att1 = MIMEText(f.read(), 'xlsx', 'utf-8')
+    # att1 = MIMEText(f.read(), 'base64', 'utf-8')
+    att1['Content-Type'] = 'application/octet-stream'
+    # att1["Content-Disposition"] = 'attachment; filename=%s' % (file_path)  # 这句会影响附件的后缀名，多个attachment，导致手机打不开
+    # att1.add_header('Content-Disposition', 'attachment', filename=('utf-8', '', file_path))  # 解决中文附件名乱码问题
+    att1.add_header('Content-Disposition', 'attachment', filename=file_path)  # 解决中文附件名乱码问题
+    message.attach(att1)
+    f.close()
+
+    # 构造excel附件2，传送当前目录下的test.txt文件
+    # file_name = 'yj_house_' + str(time.strftime('%Y-%m-%d', time.localtime(time.time())))
+    file_path2 = './yj_house_day/yj_house_day_' + '2021-11-06' + '.xlsx'
+    f2 = open(file_path2, 'rb')
+    att2 = MIMEText(f2.read(), 'xlsx', 'utf-8')
+    # att1 = MIMEText(f.read(), 'base64', 'utf-8')
+    att2['Content-Type'] = 'application/octet-stream'
+    # att1["Content-Disposition"] = 'attachment; filename=%s' % (file_path)
+    att2.add_header('Content-Disposition', 'attachment', filename=file_path2)  # 解决中文附件名乱码问题
+    message.attach(att2)
+    f2.close()
+
+    # 构造excel附件3，传送当前目录下的test.txt文件
+    # file_name = 'yj_house_' + str(time.strftime('%Y-%m-%d', time.localtime(time.time())))
+    file_path3 = './yj_house_week/yj_house_week_' + '2021-11-06' + '.xlsx'
+    f3 = open(file_path3, 'rb')
+    att3 = MIMEText(f3.read(), 'xlsx', 'utf-8')
+    # att1 = MIMEText(f.read(), 'base64', 'utf-8')
+    att3['Content-Type'] = 'application/octet-stream'
+    # att1["Content-Disposition"] = 'attachment; filename=%s' % (file_path)
+    att3.add_header('Content-Disposition', 'attachment', filename=file_path3)  # 解决中文附件名乱码问题
+    message.attach(att3)
+    f3.close()
+
+    # # 构造附件2，传送当前目录下的we.jpg文件
+    # with open('we.jpg', 'rb') as fp:
+    #     msgImage = MIMEImage(fp.read())
+    #     msgImage['Content-Type'] = 'application/octet-stream'
+    #     msgImage["Content-Disposition"] = 'attachment; filename="we.jpg"'
+    # message.attach(msgImage)
+    # fp.close()
+
+    try:
+        # 登录邮件服务器
+        smtp_obj = smtplib.SMTP_SSL("smtp.126.com")  # 发件人邮箱中的SMTP服务器，端口是25
+        smtp_obj.login("m2ruan@126.com", "YVLWGFNNIJANTMDR")  # 括号中对应的是发件人邮箱账号和邮箱密码
+        # smtp_obj.set_debuglevel(1)  # 显示调试信息
+        smtp_obj.sendmail(sender, receivers, message.as_string())
+        print('邮件发送成功')
+        smtp_obj.quit()
+    except Exception as e:
+        print('邮件发送失败', e)
+
+# 保存每天全量数据
+def db_save_excel_days_byhand():
+    if not os.path.exists('./yj_house_all/'):
+        os.mkdir('./yj_house_all/')
+    data_date_str = '2021-11-06'
+    annex_path = './yj_house_all/yj_house_' + data_date_str + '.xlsx'
+    # sql = "select distinct project_name,project_address,project_builder,project_distinct,project_total_builder_area,project_area,total_house_num,total_area,house_num,house_area,not_house_num,not_house_area,sold_house_num,sold_house_area,house_avg_price,sold_not_house_num,sold_not_house_area,not_house_avg_price,current_date() from yj_houses.yj_houses_selling_info where data_date = '%s'" % (data_date_str)
+    sql = """
+    select distinct
+        project_name
+        ,project_address
+        ,project_builder
+        ,project_distinct
+        ,project_total_builder_area
+        ,project_area
+        ,total_house_num
+        ,total_area
+        ,house_num
+        ,house_area
+        ,not_house_num
+        ,not_house_area
+        ,sold_house_num
+        ,sold_house_area
+        ,house_avg_price
+        ,sold_not_house_num
+        ,sold_not_house_area
+        ,not_house_avg_price
+        ,current_date()
+    from yj_houses.yj_houses_selling_info where data_date = '%s' order by project_distinct desc""" % ('2021-11-06')
+    # print('日期是：',data_date_str)
+    # print('执行的语句是：',sql)
+    conn = pymysql.connect(host='localhost', user='root', password='123456', port=3306, db='yj_houses')  # 连接mysql
+    cursor = conn.cursor()  # 创建游标
+    cursor.execute(sql)  # 执行sql语句
+    result = cursor.fetchall()  # 获取执行结果
+    # result = [list(x) for x in result]  # 推导式
+    col_result = cursor.description  # 获取查询结果的字段描述
+    # columns = [x[0] for x in col_result]
+    # 定义表头
+    columns = ['项目名称','项目座落','开发商','所在地区','总建筑面积','占地面积','总套数','总面积','住宅套数','住宅面积','非住宅套数','非住宅面积','已售住宅套数','已售住宅面积','住宅均价','已售非住宅套数','已售非住宅面积','非住宅均价','数据批次（日期）']
+    data = pd.DataFrame(result, columns=columns)
+    print('日采集落excel数据量：',len(data))
+    data.to_excel(annex_path, index=False)  # 将数据库数据保存到excel中
+
+    cursor.close()
+    conn.close()
+
+# 保存每天统计的天数据
+def db_save_excel_calc_day_byhand():
+    if not os.path.exists('./yj_house_day/'):
+        os.mkdir('./yj_house_day/')
+    data_date_str = '2021-11-06'
+    annex_path = './yj_house_day/yj_house_day_' + data_date_str + '.xlsx'
+    sql = """
+    select
+        project_name
+        ,project_distinct
+        ,total_house_num
+        ,sold_house_num
+        ,today_sold_house_num
+        ,house_avg_price
+        ,sold_not_house_num
+        ,today_sold_not_house_num
+        ,not_house_avg_price
+        ,data_date
+    from yj_houses_selling_info_day WHERE data_date = '2021-11-06'"""
+    # from yj_houses_selling_info_day WHERE data_date = CURRENT_DATE()"""
+    # print('日期是：',data_date_str)
+    # print('执行的语句是：',sql)
+    conn = pymysql.connect(host='localhost', user='root', password='123456', port=3306, db='yj_houses')  # 连接mysql
+    cursor = conn.cursor()  # 创建游标
+    cursor.execute(sql)  # 执行sql语句
+    result = cursor.fetchall()  # 获取执行结果
+    # result = [list(x) for x in result]  # 推导式
+    col_result = cursor.description  # 获取查询结果的字段描述
+    # columns = [x[0] for x in col_result]
+    # 定义表头
+    columns=['项目名称','所在地区','总套数','已售住宅套数','本日已售住宅套数','住宅均价','已售非住宅套数','本日已售非住宅套数','非住宅均价','数据时间']
+    data = pd.DataFrame(result, columns=columns)
+    print('日采集落excel日表数据量：',len(data))
+    data.to_excel(annex_path, index=False)  # 将数据库数据保存到excel中
+
+    cursor.close()
+    conn.close()
+
+# 保存每天统计的周数据
+def db_save_excel_calc_week_byhand():
+    if not os.path.exists('./yj_house_week/'):
+        os.mkdir('./yj_house_week/')
+    data_date_str = '2021-11-06'
+    annex_path = './yj_house_week/yj_house_week_' + data_date_str + '.xlsx'
+    sql = """
+    select
+        project_name
+        ,project_distinct
+        ,total_house_num
+        ,sold_house_num
+        ,week_sold_house_num
+        ,house_avg_price
+        ,sold_not_house_num
+        ,week_sold_not_house_num
+        ,not_house_avg_price
+        ,data_date
+    from yj_houses_selling_info_week WHERE data_date = '2021-11-06'"""
+    # from yj_houses_selling_info_day WHERE data_date = CURRENT_DATE()"""
+    # print('日期是：',data_date_str)
+    # print('执行的语句是：',sql)
+    conn = pymysql.connect(host='localhost', user='root', password='123456', port=3306, db='yj_houses')  # 连接mysql
+    cursor = conn.cursor()  # 创建游标
+    cursor.execute(sql)  # 执行sql语句
+    result = cursor.fetchall()  # 获取执行结果
+    # result = [list(x) for x in result]  # 推导式
+    col_result = cursor.description  # 获取查询结果的字段描述
+    # columns = [x[0] for x in col_result]
+    # 定义表头
+    columns=['项目名称','所在地区','总套数','已售住宅套数','本周已售住宅套数','住宅均价','已售非住宅套数','本周已售非住宅套数','非住宅均价','数据时间']
+    data = pd.DataFrame(result, columns=columns)
+    print('日采集落excel周表数据量：',len(data))
+    data.to_excel(annex_path, index=False)  # 将数据库数据保存到excel中
+
+    cursor.close()
+    conn.close()
+
+# 如下为工作流
 def parse_insert(proxies):
     start_time = datetime.datetime.now()
     print('开始时间：', start_time)
@@ -229,7 +431,7 @@ def send_email():
     message['To'] = Header("老婆")
     # 抄送
     message['Cc'] = 'liangyangruan@qq.com'
-    subject = '本日量网签数据（含阳江江城及阳东）'
+    subject = str(time.strftime('%Y-%m-%d', time.localtime(time.time()))) + '日量网签数据（含阳江江城及阳东）'
     message['Subject'] = Header(subject, 'utf-8')
 
     # 邮件正文内容
@@ -307,7 +509,7 @@ def send_email2():
     message['To'] = Header("老婆")
     # 抄送
     message['Cc'] = 'liangyangruan@qq.com'
-    subject = '本日网签数据（含阳江江城及阳东）'
+    subject = str(time.strftime('%Y-%m-%d', time.localtime(time.time()))) + '日量网签数据（含阳江江城及阳东）'
     message['Subject'] = Header(subject, 'utf-8')
 
     # 邮件正文内容
@@ -491,6 +693,7 @@ def db_save_excel_calc_week():
     cursor.close()
     conn.close()
 
+# call stoted function
 def data_insert_day_table():
     conn = pymysql.connect(host='localhost', user='root', password='123456', port=3306, db='yj_houses')
     cursor = conn.cursor()
@@ -527,9 +730,16 @@ def main():
             send_email()
             # send_email2()
 
+            # 手动处理的流程
+            # db_save_excel_days_byhand()
+            # db_save_excel_calc_day_byhand()
+            # db_save_excel_calc_week_byhand()
+            # send_email_byhand()
+
+
             print(str(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime((time.time())))), '今日任务执行完毕!!!')
-    except:
-        print('执行失败，请检查代理配置文件或者网页是否变更!!!')
+    except Exception as e:
+        print('执行失败，请检查代理配置文件或者网页是否变更!!!',e)
     end_time = datetime.datetime.now()
     time_diff = end_time - inc_time
     print(str(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime((time.time())))),' 任务执行用时： ',time_diff)
