@@ -720,7 +720,7 @@ def main():
 
             proxies = {data['prd']['proxies_method']: data['prd']['proxies_ip'] + ':' + data['prd']['proxies_port']}
             print('代理是：', proxies)
-            # proxies = {"HTTP": '27.42.168.46:55481'}
+            # proxies = {"HTTP": '39.106.228.34:8080'}
 
             parse_insert(proxies)
             # call stoted function
