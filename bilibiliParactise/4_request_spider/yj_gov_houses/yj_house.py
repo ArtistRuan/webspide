@@ -13,3 +13,4 @@ if __name__ == '__main__':
 
         proxies = {data['prd']['proxies_method']:data['prd']['proxies_ip'] + ':' + data['prd']['proxies_port']}
         print('代理是：',proxies)
+
