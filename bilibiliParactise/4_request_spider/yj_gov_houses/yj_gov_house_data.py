@@ -281,7 +281,7 @@ def parse_insert(proxies):
         except:
             continue
 
-    for page_num_yd in range(1, 77):  # 获取阳东数据
+    for page_num_yd in range(1, 78):  # 获取阳东数据
         # time.sleep(2)
         print(str(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime((time.time())))),'正在获取第', page_num_yd, '页10个详情页信息')
         url_2 = 'http://219.129.189.10:9168/api/GzymApi/GetIndexSearchData?Jgid=d9602e29-1374-4860-8ad5-f259d239e446&PageIndex=' + str(page_num_yd) + '&PageSize=10&Ysxmmc=&Ysxkzh=&Kfsmc=&Kfxmmc='
