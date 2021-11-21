@@ -49,7 +49,7 @@ def analyze_data():
 
     return data
 
-def send_email_byhand():
+def send_email_byhand(start_date,end_date):
     # 发件人和收件人信息
     sender = 'm2ruan@126.com'
     receivers = ['m2ruan@126.com','1135965756@qq.com']
@@ -74,7 +74,7 @@ def send_email_byhand():
 
     # 构造附件1，传送当前目录下的test.txt文件
     # file_name = 'yj_house_' + str(time.strftime('%Y-%m-%d', time.localtime(time.time())))
-    file_path = './yj_house_all/yj_house_' + '2021-11-06' + '.xlsx'
+    file_path = './yj_house_all/yj_house_' + end_date + '.xlsx'
     f = open(file_path, 'rb')
     att1 = MIMEText(f.read(), 'xlsx', 'utf-8')
     # att1 = MIMEText(f.read(), 'base64', 'utf-8')
@@ -87,7 +87,7 @@ def send_email_byhand():
 
     # 构造excel附件2，传送当前目录下的test.txt文件
     # file_name = 'yj_house_' + str(time.strftime('%Y-%m-%d', time.localtime(time.time())))
-    file_path2 = './yj_house_day/yj_house_day_' + '2021-11-06' + '.xlsx'
+    file_path2 = './yj_house_day/yj_house_day_' + end_date + '.xlsx'
     f2 = open(file_path2, 'rb')
     att2 = MIMEText(f2.read(), 'xlsx', 'utf-8')
     # att1 = MIMEText(f.read(), 'base64', 'utf-8')
@@ -99,7 +99,7 @@ def send_email_byhand():
 
     # 构造excel附件3，传送当前目录下的test.txt文件
     # file_name = 'yj_house_' + str(time.strftime('%Y-%m-%d', time.localtime(time.time())))
-    file_path3 = './yj_house_week/yj_house_week_' + '2021-11-06' + '.xlsx'
+    file_path3 = './yj_house_week/yj_house_week_' + end_date + '.xlsx'
     f3 = open(file_path3, 'rb')
     att3 = MIMEText(f3.read(), 'xlsx', 'utf-8')
     # att1 = MIMEText(f.read(), 'base64', 'utf-8')
@@ -129,10 +129,10 @@ def send_email_byhand():
         print('邮件发送失败', e)
 
 # 保存每天全量数据
-def db_save_excel_days_byhand():
+def db_save_excel_days_byhand(start_date,end_date):
     if not os.path.exists('./yj_house_all/'):
         os.mkdir('./yj_house_all/')
-    data_date_str = '2021-11-06'
+    data_date_str = end_date
     annex_path = './yj_house_all/yj_house_' + data_date_str + '.xlsx'
     # sql = "select distinct project_name,project_address,project_builder,project_distinct,project_total_builder_area,project_area,total_house_num,total_area,house_num,house_area,not_house_num,not_house_area,sold_house_num,sold_house_area,house_avg_price,sold_not_house_num,sold_not_house_area,not_house_avg_price,current_date() from yj_houses.yj_houses_selling_info where data_date = '%s'" % (data_date_str)
     sql = """
@@ -155,8 +155,8 @@ def db_save_excel_days_byhand():
         ,sold_not_house_num
         ,sold_not_house_area
         ,not_house_avg_price
-        ,current_date()
-    from yj_houses.yj_houses_selling_info where data_date = '%s' order by project_distinct desc""" % ('2021-11-06')
+        ,'%s'
+    from yj_houses.yj_houses_selling_info where data_date = '%s' order by project_distinct desc""" % (end_date,end_date)
     # print('日期是：',data_date_str)
     # print('执行的语句是：',sql)
     conn = pymysql.connect(host='localhost', user='root', password='123456', port=3306, db='yj_houses')  # 连接mysql
@@ -176,10 +176,10 @@ def db_save_excel_days_byhand():
     conn.close()
 
 # 保存每天统计的天数据
-def db_save_excel_calc_day_byhand():
+def db_save_excel_calc_day_byhand(start_date,end_date):
     if not os.path.exists('./yj_house_day/'):
         os.mkdir('./yj_house_day/')
-    data_date_str = '2021-11-06'
+    data_date_str = end_date
     annex_path = './yj_house_day/yj_house_day_' + data_date_str + '.xlsx'
     sql = """
     select
@@ -193,7 +193,7 @@ def db_save_excel_calc_day_byhand():
         ,today_sold_not_house_num
         ,not_house_avg_price
         ,data_date
-    from yj_houses_selling_info_day WHERE data_date = '2021-11-06'"""
+    from yj_houses_selling_info_day WHERE data_date = '%s'""" % (end_date)
     # from yj_houses_selling_info_day WHERE data_date = CURRENT_DATE()"""
     # print('日期是：',data_date_str)
     # print('执行的语句是：',sql)
@@ -214,10 +214,10 @@ def db_save_excel_calc_day_byhand():
     conn.close()
 
 # 保存每天统计的周数据
-def db_save_excel_calc_week_byhand():
+def db_save_excel_calc_week_byhand(start_date,end_date):
     if not os.path.exists('./yj_house_week/'):
         os.mkdir('./yj_house_week/')
-    data_date_str = '2021-11-06'
+    data_date_str = end_date
     annex_path = './yj_house_week/yj_house_week_' + data_date_str + '.xlsx'
     sql = """
     select
@@ -231,7 +231,7 @@ def db_save_excel_calc_week_byhand():
         ,week_sold_not_house_num
         ,not_house_avg_price
         ,data_date
-    from yj_houses_selling_info_week WHERE data_date = '2021-11-06'"""
+    from yj_houses_selling_info_week WHERE data_date = '%s'""" % (end_date)
     # from yj_houses_selling_info_day WHERE data_date = CURRENT_DATE()"""
     # print('日期是：',data_date_str)
     # print('执行的语句是：',sql)
@@ -732,10 +732,14 @@ def main():
             # send_email2()
 
             # 手动处理的流程
-            # db_save_excel_days_byhand()
-            # db_save_excel_calc_day_byhand()
-            # db_save_excel_calc_week_byhand()
-            # send_email_byhand()
+            # 开始时间
+            start_date = ''
+            # 结束时间
+            end_date = '2021-11-21'
+            # db_save_excel_days_byhand(start_date,end_date)
+            # db_save_excel_calc_day_byhand(start_date,end_date)
+            # db_save_excel_calc_week_byhand(start_date,end_date)
+            # send_email_byhand(start_date,end_date)
 
 
             print(str(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime((time.time())))), '今日任务执行完毕!!!')
