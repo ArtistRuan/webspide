@@ -11,6 +11,8 @@ def hive_connection(hql):
     for res in result:
         print(res)
 
+    # import pip._internal
+    # print(pip._internal.pep425tags.get_supported())
 def main(hql):
     hive_connection(hql)
 
