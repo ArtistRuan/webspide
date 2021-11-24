@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
-# import pyhive
+import pyhive
 import sasl
-from hive_service import ThriftHive
+# from hive_service import ThriftHive
 from thrift.transport import TSocket
 from thrift.transport import TTransport
 from thrift.protocol import TBinaryProtocol
