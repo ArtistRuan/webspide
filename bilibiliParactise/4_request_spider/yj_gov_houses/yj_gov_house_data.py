@@ -721,7 +721,7 @@ def main():
             proxies = {data['prd']['proxies_method']: data['prd']['proxies_ip'] + ':' + data['prd']['proxies_port']}
             print('代理是：', proxies)
             # proxies = {"HTTP": '39.106.228.34:8080'}
-
+################## 自动程序 #######################################
             parse_insert(proxies)
             # call stoted function
             data_insert_day_table()
@@ -730,12 +730,14 @@ def main():
             db_save_excel_calc_week()
             send_email()
             # send_email2()
-
+#################### 手动程序 #####################################
             # 手动处理的流程
             # 开始时间
-            start_date = ''
-            # 结束时间
-            end_date = '2021-11-21'
+            # start_date = ''
+            # # 结束时间
+            # end_date = '2021-11-28'
+            # print("开始日期=",start_date)
+            # print("结束日期=",end_date)
             # db_save_excel_days_byhand(start_date,end_date)
             # db_save_excel_calc_day_byhand(start_date,end_date)
             # db_save_excel_calc_week_byhand(start_date,end_date)
