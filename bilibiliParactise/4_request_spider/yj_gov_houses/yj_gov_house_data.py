@@ -733,11 +733,11 @@ def main():
 #################### 手动程序 #####################################
             # 手动处理的流程
             # 开始时间
-            # start_date = ''
-            # # 结束时间
-            # end_date = '2021-11-28'
-            # print("开始日期=",start_date)
-            # print("结束日期=",end_date)
+            start_date = ''
+            # 结束时间
+            end_date = '2021-12-06'
+            print("手动开始日期=",start_date)
+            print("手动结束日期=",end_date)
             # db_save_excel_days_byhand(start_date,end_date)
             # db_save_excel_calc_day_byhand(start_date,end_date)
             # db_save_excel_calc_week_byhand(start_date,end_date)

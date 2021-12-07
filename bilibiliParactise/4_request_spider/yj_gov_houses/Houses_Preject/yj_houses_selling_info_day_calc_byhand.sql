@@ -1,6 +1,6 @@
 
 -- 删除当天数据
-DELETE FROM yj_houses_selling_info_day WHERE data_date = '2021-11-28';
+DELETE FROM yj_houses.yj_houses_selling_info_day WHERE data_date = '2021-12-06';
 -- 插入数据表
 INSERT INTO yj_houses.yj_houses_selling_info_day (project_name,total_house_num,sold_house_num,today_sold_house_num,sold_not_house_num,today_sold_not_house_num,project_distinct,house_avg_price,not_house_avg_price,data_date)
 SELECT a.project_name,
@@ -23,7 +23,7 @@ FROM
                 ,sold_not_house_num + 0 AS sold_not_house_num  -- 已售非住宅套数
                 ,not_house_avg_price  -- 非住宅均价
                 ,data_date
-            FROM yj_houses.yj_houses_selling_info WHERE data_date = '2021-11-28'
+            FROM yj_houses.yj_houses_selling_info WHERE data_date = '2021-12-06'
             AND (
             project_name LIKE '%上东新城%'
 OR project_name LIKE '%保利中央公园%'
@@ -52,7 +52,7 @@ LEFT JOIN
                 ,sold_not_house_num + 0 AS sold_not_house_num  -- 已售非住宅套数
                 ,not_house_avg_price  -- 非住宅均价
                 ,data_date
-            FROM yj_houses.yj_houses_selling_info WHERE data_date = '2021-11-27'
+            FROM yj_houses.yj_houses_selling_info WHERE data_date = '2021-12-05'
             AND (
             project_name LIKE '%上东新城%'
     OR project_name LIKE '%保利中央公园%'
