@@ -11,17 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_all/yj_house_2021-12-06.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_all/yj_house_2021-12-07.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_day/yj_house_day_2021-12-06.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_day/yj_house_day_2021-12-07.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_week/yj_house_week_2021-12-06.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_week/yj_house_week_2021-12-07.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_all/yj_house_2021-12-08.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_day/yj_house_day_2021-12-08.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_week/yj_house_week_2021-12-08.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/Houses_Preject/yj_houses_selling_info_byhand.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/Houses_Preject/yj_houses_selling_info_byhand.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/Houses_Preject/yj_houses_selling_info_day_calc_byhand.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/Houses_Preject/yj_houses_selling_info_day_calc_byhand.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/Houses_Preject/yj_houses_selling_info_week_calc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/Houses_Preject/yj_houses_selling_info_week_calc.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/Houses_Preject/yj_houses_selling_info_week_calc_byhand.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/Houses_Preject/yj_houses_selling_info_week_calc_byhand.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_gov_house_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_gov_house_data.py" afterDir="false" />
     </list>
@@ -51,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="796d2168-50fd-4c03-a00c-d82f8e720390" />
+  <component name="JupyterTrust" id="3786de5c-6814-4b07-8392-988e553cb4cc" />
   <component name="ProjectId" id="1yjCIKImNGPFPManBQydPp0DL2R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -308,7 +301,8 @@
       <workItem from="1638712129446" duration="2701000" />
       <workItem from="1638809298651" duration="718000" />
       <workItem from="1638875139695" duration="248000" />
-      <workItem from="1638884707851" duration="1128000" />
+      <workItem from="1638884707851" duration="1730000" />
+      <workItem from="1638971025716" duration="2450000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
@@ -348,6 +342,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="no message" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="405" y="187" key="#Notifications" timestamp="1638972306560">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="405" y="187" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1638972306560" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1634472632300">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -356,22 +354,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1632755612082" />
-    <state width="1323" height="228" key="GridCell.Tab.0.bottom" timestamp="1638888588605">
+    <state width="1323" height="228" key="GridCell.Tab.0.bottom" timestamp="1638974682801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="228" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1638888588605" />
-    <state width="1323" height="228" key="GridCell.Tab.0.center" timestamp="1638888588605">
+    <state width="1323" height="228" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1638974682801" />
+    <state width="1323" height="228" key="GridCell.Tab.0.center" timestamp="1638974682801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="228" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1638888588605" />
-    <state width="1323" height="228" key="GridCell.Tab.0.left" timestamp="1638888588604">
+    <state width="1323" height="228" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1638974682801" />
+    <state width="1323" height="228" key="GridCell.Tab.0.left" timestamp="1638974682800">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="228" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1638888588604" />
-    <state width="1323" height="228" key="GridCell.Tab.0.right" timestamp="1638888588605">
+    <state width="1323" height="228" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1638974682800" />
+    <state width="1323" height="228" key="GridCell.Tab.0.right" timestamp="1638974682801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="228" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1638888588605" />
+    <state width="1323" height="228" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1638974682801" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1635092869325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -427,7 +425,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$mysql_connector.coverage" NAME="mysql_connector Coverage Results" MODIFIED="1633970283907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/3_database_related" />
     <SUITE FILE_PATH="coverage/pythonProject$makeup_monitor.coverage" NAME="makeup_monitor Coverage Results" MODIFIED="1634386323886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/makeup_nation_monitor" />
     <SUITE FILE_PATH="coverage/pythonProject$email_demo.coverage" NAME="email_demo Coverage Results" MODIFIED="1633885797547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
-    <SUITE FILE_PATH="coverage/pythonProject$yj_gov_house_data.coverage" NAME="yj_gov_house_data Coverage Results" MODIFIED="1638885233267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
+    <SUITE FILE_PATH="coverage/pythonProject$yj_gov_house_data.coverage" NAME="yj_gov_house_data Coverage Results" MODIFIED="1638974634478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
     <SUITE FILE_PATH="coverage/pythonProject$json_python.coverage" NAME="json_python Coverage Results" MODIFIED="1633853189388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/4_json_python" />
     <SUITE FILE_PATH="coverage/pythonProject$web_requests.coverage" NAME="web_requests Coverage Results" MODIFIED="1634142285231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider" />
     <SUITE FILE_PATH="coverage/pythonProject$multiprocessing_dummy_pool.coverage" NAME="multiprocessing_dummy_pool Coverage Results" MODIFIED="1635700991916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/multiprocessing_dummy_pool" />

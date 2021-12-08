@@ -485,7 +485,8 @@ def send_email():
     try:
         # 登录邮件服务器
         smtp_obj = smtplib.SMTP_SSL("smtp.126.com")  # 发件人邮箱中的SMTP服务器，端口是25
-        smtp_obj.login("m2ruan@126.com", "YVLWGFNNIJANTMDR")  # 括号中对应的是发件人邮箱账号和邮箱密码
+        # smtp_obj.login("m2ruan@126.com", "YVLWGFNNIJANTMDR")  # 括号中对应的是发件人邮箱账号和邮箱密码
+        smtp_obj.login("m2ruan@126.com", "FJFXPSAKUNCQIDML")  # 括号中对应的是发件人邮箱账号和邮箱密码
         # smtp_obj.set_debuglevel(1)  # 显示调试信息
         smtp_obj.sendmail(sender, receivers, message.as_string())
         print('邮件发送成功')
@@ -722,12 +723,12 @@ def main():
             print('代理是：', proxies)
             # proxies = {"HTTP": '39.106.228.34:8080'}
 ################## 自动程序 #######################################
-            parse_insert(proxies)
-            # call stoted function
-            data_insert_day_table()
-            db_save_excel_days()
-            db_save_excel_calc_day()
-            db_save_excel_calc_week()
+            # parse_insert(proxies)
+            # # call stoted function
+            # data_insert_day_table()
+            # db_save_excel_days()
+            # db_save_excel_calc_day()
+            # db_save_excel_calc_week()
             send_email()
             # send_email2()
 #################### 手动程序 #####################################
