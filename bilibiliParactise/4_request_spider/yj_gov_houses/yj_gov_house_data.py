@@ -723,12 +723,12 @@ def main():
             print('代理是：', proxies)
             # proxies = {"HTTP": '39.106.228.34:8080'}
 ################## 自动程序 #######################################
-            # parse_insert(proxies)
-            # # call stoted function
-            # data_insert_day_table()
-            # db_save_excel_days()
-            # db_save_excel_calc_day()
-            # db_save_excel_calc_week()
+            parse_insert(proxies)
+            # call stoted function
+            data_insert_day_table()
+            db_save_excel_days()
+            db_save_excel_calc_day()
+            db_save_excel_calc_week()
             send_email()
             # send_email2()
 #################### 手动程序 #####################################

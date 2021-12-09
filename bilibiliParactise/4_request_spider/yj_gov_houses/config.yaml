@@ -1,5 +1,5 @@
 # 代理信息，因为是免费版本，需每天更新（ https://www.kuaidaili.com/ops/proxylist/1/ ）
 prd:
  proxies_method: "HTTP"
- proxies_ip: '218.87.83.138'
+ proxies_ip: '115.218.7.191'
  proxies_port: '9000'
