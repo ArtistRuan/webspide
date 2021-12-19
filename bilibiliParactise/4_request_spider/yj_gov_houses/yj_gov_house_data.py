@@ -120,7 +120,7 @@ def send_email_byhand(start_date,end_date):
     try:
         # 登录邮件服务器
         smtp_obj = smtplib.SMTP_SSL("smtp.126.com")  # 发件人邮箱中的SMTP服务器，端口是25
-        smtp_obj.login("m2ruan@126.com", "YVLWGFNNIJANTMDR")  # 括号中对应的是发件人邮箱账号和邮箱密码
+        smtp_obj.login("m2ruan@126.com", "FJFXPSAKUNCQIDML")  # 括号中对应的是发件人邮箱账号和邮箱密码
         # smtp_obj.set_debuglevel(1)  # 显示调试信息
         smtp_obj.sendmail(sender, receivers, message.as_string())
         print('邮件发送成功')
@@ -736,7 +736,7 @@ def main():
             # 开始时间
             start_date = ''
             # 结束时间
-            end_date = '2021-12-06'
+            end_date = '2021-12-19'
             print("手动开始日期=",start_date)
             print("手动结束日期=",end_date)
             # db_save_excel_days_byhand(start_date,end_date)
