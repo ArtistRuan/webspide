@@ -730,15 +730,17 @@ def main():
             db_save_excel_calc_day()
             db_save_excel_calc_week()
             send_email()
+            #这个send_email2基本不用
             # send_email2()
 #################### 手动程序 #####################################
             # 手动处理的流程
             # 开始时间
             start_date = ''
-            # 结束时间
-            end_date = '2021-12-19'
+            # 结束时间（实际是想要执行的当天的数据）
+            end_date = '2022-03-01'
             print("手动开始日期=",start_date)
             print("手动结束日期=",end_date)
+            #将数据库数据手动写到excel
             # db_save_excel_days_byhand(start_date,end_date)
             # db_save_excel_calc_day_byhand(start_date,end_date)
             # db_save_excel_calc_week_byhand(start_date,end_date)

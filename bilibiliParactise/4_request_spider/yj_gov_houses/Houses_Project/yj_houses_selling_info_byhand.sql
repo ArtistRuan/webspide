@@ -1,6 +1,6 @@
 
 -- 删除当天数据
-DELETE FROM yj_houses.yj_houses_selling_info WHERE data_date = '2021-12-17';
+DELETE FROM yj_houses.yj_houses_selling_info WHERE data_date = '2022-02-28';
 -- 插入数据表
 INSERT INTO yj_houses.yj_houses_selling_info (
 project_name
@@ -42,6 +42,6 @@ project_name
 ,sold_not_house_num
 ,sold_not_house_area
 ,not_house_avg_price
-,'2021-12-17' as data_date
+,'2022-02-28' as data_date
 from yj_houses.yj_houses_selling_info
-where data_date = '2021-12-19'
+where data_date = '2022-03-01'
