@@ -45,7 +45,8 @@ def get_data_from_mysql(sql):
 
 # 主方法
 def main():
-    sql = 'select * from student'
+    # sql = 'select age,name,id,birthday from student'
+    sql = 'select age,name from student group by age,name'
     get_data_from_mysql(sql)
 
 if __name__ == '__main__':
