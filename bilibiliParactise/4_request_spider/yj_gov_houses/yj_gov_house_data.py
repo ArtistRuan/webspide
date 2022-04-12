@@ -320,7 +320,7 @@ def parse_insert(proxies):
     ixd2 = 0
     for data_url in b_set:
         ixd2 += 1
-        time.sleep(1)
+        # time.sleep(1)
         print(str(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime((time.time())))),'发起目标页面跳转请求...', data_url)
         # 对最终数据页面发起请求
         data_page = session.get(url=data_url, headers=headers,proxies=proxies).content
@@ -737,7 +737,7 @@ def main():
             # 开始时间
             start_date = ''
             # 结束时间（实际是想要执行的当天的数据）
-            end_date = '2022-03-01'
+            end_date = '2022-03-06'
             print("手动开始日期=",start_date)
             print("手动结束日期=",end_date)
             #将数据库数据手动写到excel

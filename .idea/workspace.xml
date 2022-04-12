@@ -11,14 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_all/yj_house_2022-03-02.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_all/yj_house_2022-03-03.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_day/yj_house_day_2022-03-02.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_day/yj_house_day_2022-03-03.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_week/yj_house_week_2022-03-02.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_week/yj_house_week_2022-03-03.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_all/yj_house_2022-03-04.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_all/yj_house_2022-03-05.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_all/yj_house_2022-03-06.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_all/yj_house_2022-03-08.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_all/yj_house_2022-03-09.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_day/yj_house_day_2022-03-04.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_day/yj_house_day_2022-03-05.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_day/yj_house_day_2022-03-06.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_day/yj_house_day_2022-03-08.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_day/yj_house_day_2022-03-09.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_week/yj_house_week_2022-03-04.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_week/yj_house_week_2022-03-05.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_week/yj_house_week_2022-03-06.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_week/yj_house_week_2022-03-08.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house_week/yj_house_week_2022-03-09.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connectDB/mysql_data/student.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connectDB/relativeDb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_gov_house_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_gov_house_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +58,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="dc9c5793-1402-4496-a496-e576e17cffd1" />
+  <component name="JupyterTrust" id="7139ffd1-b0d6-47ee-b309-4409fda65854" />
   <component name="ProjectId" id="1yjCIKImNGPFPManBQydPp0DL2R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -79,7 +91,7 @@
       <recent name="G:\desktop\pythonProject\Demo\module_yaml" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.yj_gov_house_data">
+  <component name="RunManager" selected="Python.relativeDb">
     <configuration name="hiveDB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,6 +180,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="relativeDb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connectDB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connectDB/relativeDb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="yj_gov_house_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,35 +224,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yj_house" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_house.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.relativeDb" />
+        <item itemvalue="Python.hiveDB" />
         <item itemvalue="Python.yj_gov_house_data" />
         <item itemvalue="Python.myqr_demo" />
         <item itemvalue="Python.hive_connector" />
-        <item itemvalue="Python.hiveDB" />
-        <item itemvalue="Python.yj_house" />
       </list>
     </recent_temporary>
   </component>
@@ -330,6 +342,15 @@
       <workItem from="1646140973702" duration="4111000" />
       <workItem from="1646223156223" duration="2347000" />
       <workItem from="1646315365667" duration="804000" />
+      <workItem from="1646377996306" duration="79000" />
+      <workItem from="1646378178150" duration="4633000" />
+      <workItem from="1646562909535" duration="5792000" />
+      <workItem from="1646750929025" duration="1499000" />
+      <workItem from="1646829490289" duration="2060000" />
+      <workItem from="1649514134231" duration="3000" />
+      <workItem from="1649514172859" duration="747000" />
+      <workItem from="1649515448442" duration="159000" />
+      <workItem from="1649770598875" duration="6862000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
@@ -369,26 +390,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="no message" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="405" y="187" key="#Notifications" timestamp="1638972306560">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1649777787511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="405" y="187" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1638972306560" />
-    <state width="1323" height="274" key="GridCell.Tab.0.bottom" timestamp="1646317277241">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1649777787511" />
+    <state width="1323" height="183" key="GridCell.Tab.0.bottom" timestamp="1649778180153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1646317277241" />
-    <state width="1323" height="274" key="GridCell.Tab.0.center" timestamp="1646317277241">
+    <state width="1323" height="183" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1649778180153" />
+    <state width="1323" height="183" key="GridCell.Tab.0.center" timestamp="1649778180153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1646317277241" />
-    <state width="1323" height="274" key="GridCell.Tab.0.left" timestamp="1646317277240">
+    <state width="1323" height="183" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1649778180153" />
+    <state width="1323" height="183" key="GridCell.Tab.0.left" timestamp="1649778180152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1646317277240" />
-    <state width="1323" height="274" key="GridCell.Tab.0.right" timestamp="1646317277241">
+    <state width="1323" height="183" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1649778180152" />
+    <state width="1323" height="183" key="GridCell.Tab.0.right" timestamp="1649778180153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1646317277241" />
+    <state width="1323" height="183" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1649778180153" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -408,7 +429,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$mysql_connector.coverage" NAME="mysql_connector Coverage Results" MODIFIED="1633970283907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/3_database_related" />
     <SUITE FILE_PATH="coverage/pythonProject$makeup_monitor.coverage" NAME="makeup_monitor Coverage Results" MODIFIED="1634386323886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/makeup_nation_monitor" />
     <SUITE FILE_PATH="coverage/pythonProject$email_demo.coverage" NAME="email_demo Coverage Results" MODIFIED="1633885797547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
-    <SUITE FILE_PATH="coverage/pythonProject$yj_gov_house_data.coverage" NAME="yj_gov_house_data Coverage Results" MODIFIED="1646315517024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
+    <SUITE FILE_PATH="coverage/pythonProject$yj_gov_house_data.coverage" NAME="yj_gov_house_data Coverage Results" MODIFIED="1646829579741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
     <SUITE FILE_PATH="coverage/pythonProject$json_python.coverage" NAME="json_python Coverage Results" MODIFIED="1633853189388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/4_json_python" />
     <SUITE FILE_PATH="coverage/pythonProject$web_requests.coverage" NAME="web_requests Coverage Results" MODIFIED="1634142285231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider" />
     <SUITE FILE_PATH="coverage/pythonProject$multiprocessing_dummy_pool.coverage" NAME="multiprocessing_dummy_pool Coverage Results" MODIFIED="1635700991916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/multiprocessing_dummy_pool" />
@@ -417,6 +438,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$qiutu_pic.coverage" NAME="qiutu_pic Coverage Results" MODIFIED="1634455409273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/qiutu_pic" />
     <SUITE FILE_PATH="coverage/pythonProject$collect_analyze_mysql.coverage" NAME="collect_analyze_mysql Coverage Results" MODIFIED="1634666368959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/3_database_related" />
     <SUITE FILE_PATH="coverage/pythonProject$ask.coverage" NAME="ask Coverage Results" MODIFIED="1634831749494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/test" />
+    <SUITE FILE_PATH="coverage/pythonProject$relativeDb.coverage" NAME="relativeDb Coverage Results" MODIFIED="1649778180140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connectDB" />
     <SUITE FILE_PATH="coverage/pythonProject$studentsys.coverage" NAME="studentsys Coverage Results" MODIFIED="1633846262366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vipSystem" />
     <SUITE FILE_PATH="coverage/pythonProject$58_second_houses.coverage" NAME="58_second_houses Coverage Results" MODIFIED="1634493140865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/58_second_houses" />
     <SUITE FILE_PATH="coverage/pythonProject$web_rank_douban.coverage" NAME="web_rank_douban Coverage Results" MODIFIED="1634469827279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_rank_douban" />
@@ -446,7 +468,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$wordCloud.coverage" NAME="wordCloud Coverage Results" MODIFIED="1633707416954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/2_wordCloud" />
     <SUITE FILE_PATH="coverage/pythonProject$bs4_BeautifulSoup.coverage" NAME="bs4_BeautifulSoup Coverage Results" MODIFIED="1634490428812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/bs4_demo" />
     <SUITE FILE_PATH="coverage/pythonProject$json_response.coverage" NAME="json_response Coverage Results" MODIFIED="1634745051102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
-    <SUITE FILE_PATH="coverage/pythonProject$hiveDB.coverage" NAME="hiveDB Coverage Results" MODIFIED="1637598040230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connectDB" />
+    <SUITE FILE_PATH="coverage/pythonProject$hiveDB.coverage" NAME="hiveDB Coverage Results" MODIFIED="1649770656028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connectDB" />
     <SUITE FILE_PATH="coverage/pythonProject$withMasks.coverage" NAME="withMasks Coverage Results" MODIFIED="1633842617533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/3_paddlehub" />
     <SUITE FILE_PATH="coverage/pythonProject$debug_test.coverage" NAME="debug_test Coverage Results" MODIFIED="1635000933495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/test" />
     <SUITE FILE_PATH="coverage/pythonProject$python_excel__1_.coverage" NAME="python_excel (1) Coverage Results" MODIFIED="1633864380871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/1_about_excel" />
