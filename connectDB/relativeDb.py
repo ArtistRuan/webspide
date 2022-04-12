@@ -37,7 +37,7 @@ def get_data_from_mysql(sql):
                 line = '\27'.join('%s' %col for col in row)
                 print("获取到的拼接内容是：")
                 print(line)
-                line_with_sep = f'{line}\n'
+                line_with_sep = '{}\n'.format(line)
                 fp.write(line_with_sep)
     except Exception as e:
         print(e)
