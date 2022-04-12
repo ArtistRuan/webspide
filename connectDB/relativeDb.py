@@ -34,7 +34,9 @@ def get_data_from_mysql(sql):
         with open(file_path, 'w') as fp:
             for row in result:
                 print("每条数据是：",row)
-                line = '\27'.join('%s' %col for col in row)
+                # line = '\27'.join('%s' %col for col in row)
+                # 列表生成式中处理空数据（None）
+                line = '\27'.join('%s' %col if col is not None else '\\N' for col in row)
                 print("获取到的拼接内容是：")
                 print(line)
                 line_with_sep = '{}\n'.format(line)
