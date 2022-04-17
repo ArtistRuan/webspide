@@ -10,16 +10,27 @@ __author__ = 'ruanshikao'
 @date 2022-04-12 22:16
 '''
 import pymysql
-import os
+import os,sys
+
+# 全局定义参数
+try:
+    db_host = sys.argv[1]
+    db_port = int(sys.argv[2])
+    db_name = sys.argv[3]
+    db_user = sys.argv[4]
+    db_passwd = sys.argv[5]
+except Exception as e:
+    print(e)
+    db_host = 'localhost'
+    db_port = 3306
+    db_name = 'student'
+    db_user = 'root'
+    db_passwd = '123456'
 
 # 从mysql获取数据
 def get_data_from_mysql(sql):
-    mysql_host='localhost'
-    mysql_port=3306
-    mysql_database='student'
-    mysql_user='root'
-    mysql_passwd='123456'
-    conn = pymysql.connect(host=mysql_host,user=mysql_user,passwd=mysql_passwd,port=mysql_port,db=mysql_database)
+
+    conn = pymysql.connect(host=db_host,user=db_user,passwd=db_passwd,port=db_port,db=db_name)
     # 获取游标
     cursor = conn.cursor()
     # 执行的sql
@@ -31,7 +42,7 @@ def get_data_from_mysql(sql):
         if not os.path.exists('./mysql_data/'):
             os.mkdir('./mysql_data/')
         file_path = './mysql_data/student.txt'
-        with open(file_path, 'w') as fp:
+        with open(file_path, 'w',encoding='utf8') as fp:
             for row in result:
                 print("每条数据是：",row)
                 # line = '\27'.join('%s' %col for col in row)
@@ -47,8 +58,12 @@ def get_data_from_mysql(sql):
 
 # 主方法
 def main():
-    # sql = 'select age,name,id,birthday from student'
-    sql = 'select age,name from student group by age,name'
+    try:
+        sql = sys.argv[6]
+    except Exception as e:
+        # sql = 'select age,name,id,birthday from student'
+        sql = 'select age,name from student group by age,name'
+    # 执行程序
     get_data_from_mysql(sql)
 
 if __name__ == '__main__':
