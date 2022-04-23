@@ -17,11 +17,25 @@ password = "123456"
 
 import paramiko
 import os
+import subprocess
 
 #直接系统命令（执行超时）
 def system_command():
-    command = "ssh root@192.168.174.100 mkdir -p /test"
-    os.system(command)
+    # 为支持重跑，检查是否存在
+    ssh_command = """
+        ssh 192.168.174.100 <<EOF
+        if [ -d /export/shell_python/20220423 ] && [ -f /export/shell_python/20220423/data.dat ];then
+            rm -rf /export/shell_python/20220423
+            echo "ok"
+        else
+            echo -e "\e[1;41mno ok file\e[0m\e[1;31m contact the supplier\e[0m `date +"%Y-%m-%d %H%M%S"`"
+            exit 1
+        fi
+        >>EOF
+    """
+    scp_command = "scp -r /export/shell_python/20220423/ root@192.168.174.100:/export/shell_python/"
+    os.system(ssh_command)
+    os.system(scp_command)
 
 # 免密ssh（报错，没有密钥）
 def ssh_con_without_key():

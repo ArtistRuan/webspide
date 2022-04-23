@@ -12,6 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/remote_check_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/remote_check_data.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/sshfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/sshfile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="8f810e68-38e5-4b3b-a08d-75aa57c018a1" />
+  <component name="JupyterTrust" id="7512de39-72bc-4887-9bc3-879b3862f505" />
   <component name="ProjectId" id="1yjCIKImNGPFPManBQydPp0DL2R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -339,6 +341,7 @@
       <workItem from="1650292726929" duration="2445000" />
       <workItem from="1650297959408" duration="3073000" />
       <workItem from="1650379982175" duration="5165000" />
+      <workItem from="1650693989249" duration="2956000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
