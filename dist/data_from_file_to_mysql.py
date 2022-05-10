@@ -5,7 +5,10 @@ __author__ = 'ruanshikao'
 '''
 @title: data_from_file_to_mysql
 @projectName pythonProject
-@description: TODO
+@description: 将文本数据写入数据库，数据量为485000多
+                程序执行日志：
+                参数获取异常： list index out of range
+                执行时间： 0.02740856909751892
 @author ruanshikao
 @date 2022-04-28 1:04
 '''
