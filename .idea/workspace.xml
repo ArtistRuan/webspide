@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/create_data_by_fake.py" beforeDir="false" afterPath="$PROJECT_DIR$/dist/create_data_by_fake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/data_from_file_to_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/dist/data_from_file_to_mysql.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="7d16063a-0e2d-4448-b226-d5a72cf82977" />
+  <component name="JupyterTrust" id="071679fc-4334-4d60-bc8b-e093cf28413e" />
   <component name="ProjectId" id="1yjCIKImNGPFPManBQydPp0DL2R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -73,7 +73,7 @@
       <recent name="G:\desktop\pythonProject\bilibiliParactise\2_smtp_email" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.create_data_by_fake">
+  <component name="RunManager" selected="Python.data_from_file_to_mysql">
     <configuration name="create_data_by_fake" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,8 +208,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.create_data_by_fake" />
         <item itemvalue="Python.data_from_file_to_mysql" />
+        <item itemvalue="Python.create_data_by_fake" />
         <item itemvalue="Python.sshfile" />
         <item itemvalue="Python.paramikofile" />
         <item itemvalue="Python.test" />
@@ -344,7 +344,8 @@
       <workItem from="1650897442467" duration="970000" />
       <workItem from="1651078886306" duration="2307000" />
       <workItem from="1652191579303" duration="1731000" />
-      <workItem from="1652366461422" duration="3392000" />
+      <workItem from="1652366461422" duration="4098000" />
+      <workItem from="1652715786270" duration="2092000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
@@ -388,22 +389,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1649778719668" />
-    <state width="1323" height="224" key="GridCell.Tab.0.bottom" timestamp="1652369984365">
+    <state width="1323" height="224" key="GridCell.Tab.0.bottom" timestamp="1652718486107">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1652369984365" />
-    <state width="1323" height="224" key="GridCell.Tab.0.center" timestamp="1652369984363">
+    <state width="1323" height="224" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1652718486107" />
+    <state width="1323" height="224" key="GridCell.Tab.0.center" timestamp="1652718486107">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1652369984363" />
-    <state width="1323" height="224" key="GridCell.Tab.0.left" timestamp="1652369984362">
+    <state width="1323" height="224" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1652718486107" />
+    <state width="1323" height="224" key="GridCell.Tab.0.left" timestamp="1652718486106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1652369984362" />
-    <state width="1323" height="224" key="GridCell.Tab.0.right" timestamp="1652369984364">
+    <state width="1323" height="224" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1652718486106" />
+    <state width="1323" height="224" key="GridCell.Tab.0.right" timestamp="1652718486107">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1652369984364" />
+    <state width="1323" height="224" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1652718486107" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1652367639075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -452,7 +453,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$bs4_sanguo_book.coverage" NAME="bs4_sanguo_book Coverage Results" MODIFIED="1634484018072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/sanguo_book" />
     <SUITE FILE_PATH="coverage/pythonProject$sshfile.coverage" NAME="sshfile Coverage Results" MODIFIED="1650384046117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
     <SUITE FILE_PATH="coverage/pythonProject$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1635254454285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/test" />
-    <SUITE FILE_PATH="coverage/pythonProject$data_from_file_to_mysql.coverage" NAME="data_from_file_to_mysql Coverage Results" MODIFIED="1652193464162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dist" />
+    <SUITE FILE_PATH="coverage/pythonProject$data_from_file_to_mysql.coverage" NAME="data_from_file_to_mysql Coverage Results" MODIFIED="1652718486081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dist" />
     <SUITE FILE_PATH="coverage/pythonProject$ticketSystem.coverage" NAME="ticketSystem Coverage Results" MODIFIED="1633184319215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ticketSys" />
     <SUITE FILE_PATH="coverage/pythonProject$report_email.coverage" NAME="report_email Coverage Results" MODIFIED="1633965475914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
     <SUITE FILE_PATH="coverage/pythonProject$create_data_by_fake.coverage" NAME="create_data_by_fake Coverage Results" MODIFIED="1652369965625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dist" />

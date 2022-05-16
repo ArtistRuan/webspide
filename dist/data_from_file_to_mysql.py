@@ -43,8 +43,9 @@ def data_etl():
     values_list = list()
 
     with open('UserBehavior.csv','r',encoding='utf-8') as fp:
-        lines = fp.readlines()
-        for line in lines:
+        # lines = fp.readlines()
+        # for line in lines:
+        for line in fp.readlines():
             web_id = line.split(",")[0]
             city_id = line.split(",")[1]
             user_id = line.split(",")[2]
