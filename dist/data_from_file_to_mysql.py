@@ -26,7 +26,8 @@ try:
     db_passwd = sys.argv[5]
 except Exception as e:
     print("参数获取异常：",e)
-    db_host = 'localhost'
+    # db_host = 'localhost'  # 写入本地
+    db_host = '192.168.174.100'  # 写到虚拟机node1
     db_port = 3306
     db_name = 'flink'
     db_user = 'root'
