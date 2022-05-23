@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
+      <change afterPath="$PROJECT_DIR$/dataX/dataXjob.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/data_from_file_to_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/dist/data_from_file_to_mysql.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="b5bc8ea6-ad59-4358-abcd-2ee266c90711" />
+  <component name="JupyterTrust" id="0ab70299-9b26-45f8-92dd-d75659badfe2" />
   <component name="ProjectId" id="1yjCIKImNGPFPManBQydPp0DL2R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -346,7 +346,8 @@
       <workItem from="1652191579303" duration="1731000" />
       <workItem from="1652366461422" duration="4098000" />
       <workItem from="1652715786270" duration="2682000" />
-      <workItem from="1653234480378" duration="1651000" />
+      <workItem from="1653234480378" duration="1771000" />
+      <workItem from="1653323107713" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
@@ -390,22 +391,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1649778719668" />
-    <state width="1323" height="224" key="GridCell.Tab.0.bottom" timestamp="1653236136389">
+    <state width="1323" height="224" key="GridCell.Tab.0.bottom" timestamp="1653237055796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1653236136389" />
-    <state width="1323" height="224" key="GridCell.Tab.0.center" timestamp="1653236136388">
+    <state width="1323" height="224" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1653237055796" />
+    <state width="1323" height="224" key="GridCell.Tab.0.center" timestamp="1653237055796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1653236136388" />
-    <state width="1323" height="224" key="GridCell.Tab.0.left" timestamp="1653236136388">
+    <state width="1323" height="224" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1653237055796" />
+    <state width="1323" height="224" key="GridCell.Tab.0.left" timestamp="1653237055795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1653236136388" />
-    <state width="1323" height="224" key="GridCell.Tab.0.right" timestamp="1653236136388">
+    <state width="1323" height="224" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1653237055795" />
+    <state width="1323" height="224" key="GridCell.Tab.0.right" timestamp="1653237055796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1653236136388" />
+    <state width="1323" height="224" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1653237055796" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1652367639075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
