@@ -1,0 +1,73 @@
+{
+    "job": {
+        "setting": {
+            "speed": {
+                 "channel": 3
+            },
+            "errorLimit": {
+                "record": 0,
+                "percentage": 0.02
+            }
+        },
+        "content": [
+            {
+                "reader": {
+                    "name": "mysqlreader",
+                    "parameter": {
+                        "username": "root",
+                        "password": "123456",
+                        "column": [
+                            "web_id",
+                            "city_id",
+                            "user_id",
+                            "action_name",
+                            "action_time"
+                        ],
+                        "splitPk": "web_id",
+                        "encoding": "UTF-8",
+                        "connection": [
+                            {
+                                "table": [
+                                    "webview_from_py"
+                                ],
+                                "jdbcUrl": [
+                                    "jdbc:mysql://192.168.174.100:3306/flink"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "writer": {
+                    "name": "mysqlwriter",
+                    "parameter": {
+                        "writeMode": "insert",
+                        "username": "root",
+                        "password": "123456",
+                        "column": [
+                            "web_id",
+                            "city_id",
+                            "user_id",
+                            "action_name",
+                            "action_time"
+                        ],
+                        "session": [
+                        	"set session sql_mode='ANSI'"
+                        ],
+                        "preSql": [
+                            "delete from webview_from_py"
+                        ],
+                        "connection": [
+                            {
+                                "jdbcUrl": "jdbc:mysql://192.168.174.120:3306/flink?useUnicode=true&characterEncoding=gbk",
+                                "table": [
+                                    "webview_from_py"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}
+
