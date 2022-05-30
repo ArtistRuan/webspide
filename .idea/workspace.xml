@@ -11,10 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/dataX/20220531/hive_partition_source_orc_hive_2_mysql_by_shell_args.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataX/20220531/shell_datax_hive_partition_2_mysql.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataX/20220531/truncate_mysql_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataX/20220531/shell_datax_hive_partition_2_mysql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dataX/20220531/shell_datax_hive_partition_2_mysql.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,7 +349,7 @@
       <workItem from="1653323107713" duration="612000" />
       <workItem from="1653797185881" duration="327000" />
       <workItem from="1653927161246" duration="40000" />
-      <workItem from="1653927254882" duration="1031000" />
+      <workItem from="1653927254882" duration="1526000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>

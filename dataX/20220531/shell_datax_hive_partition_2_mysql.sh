@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# 将hive的分区表通过datax同步到mysql
+
 # 本脚本为程序的开始，调用方式为：
 # sh shell_datax_hive_partition_2_mysql.sh '192.168.174.100' 3306 'datax' 'root' '123456
 
