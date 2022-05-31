@@ -35,6 +35,7 @@
                         ],
                         "fileType": "orc",
                         "encoding": "UTF-8",
+                        "nullFormat":"\\N",
                         "fieldDelimiter": ","
                     }
 
