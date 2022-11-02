@@ -11,10 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/dist/create_data_into_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/data/create_data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366_config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/get_video_from_cctv366.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/config.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="c7b170da-cd7a-4dc2-8c01-8d70ef5d3c32" />
+  <component name="JupyterTrust" id="58d52644-e16b-45c3-9bdb-1b2445bf6309" />
   <component name="ProjectId" id="1yjCIKImNGPFPManBQydPp0DL2R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,17 +55,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataX/20220531" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\desktop\pythonProject\dataX\20220531" />
-      <recent name="G:\desktop\pythonProject\dist" />
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\async_flask" />
-      <recent name="G:\desktop\pythonProject\Demo\test" />
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\yj_gov_houses" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\yj_gov_houses" />
       <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_kanXiaoiejie" />
@@ -74,8 +66,15 @@
       <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\baidu_translate" />
       <recent name="G:\desktop\pythonProject\Demo\module_yaml" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request" />
+      <recent name="G:\desktop\pythonProject\dataX\20220531" />
+      <recent name="G:\desktop\pythonProject\dist" />
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\async_flask" />
+      <recent name="G:\desktop\pythonProject\Demo\test" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.create_data_into_excel">
+  <component name="RunManager" selected="Python.get_video_from_cctv366">
     <configuration name="create_data_into_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,6 +119,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="get_video_from_cctv366" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/get_video_from_cctv366.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,28 +155,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="truncate_mysql_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataX/20220531" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataX/20220531/truncate_mysql_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_video_from_cctv366" />
         <item itemvalue="Python.create_data_into_excel" />
         <item itemvalue="Python.yj_gov_house_data" />
         <item itemvalue="Python.flask_demo" />
         <item itemvalue="Python.yaml_config" />
-        <item itemvalue="Python.truncate_mysql_data" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +365,9 @@
       <workItem from="1663075128028" duration="191000" />
       <workItem from="1663683983459" duration="1478000" />
       <workItem from="1663763969816" duration="1844000" />
-      <workItem from="1665491582808" duration="12260000" />
+      <workItem from="1665491582808" duration="12442000" />
+      <workItem from="1666883277360" duration="624000" />
+      <workItem from="1667396443624" duration="8771000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
@@ -406,22 +407,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="no message" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1665505823330">
+    <state width="1323" height="314" key="GridCell.Tab.0.bottom" timestamp="1667407149081">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1665505823330" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1665505823330">
+    <state width="1323" height="314" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1667407149081" />
+    <state width="1323" height="314" key="GridCell.Tab.0.center" timestamp="1667407149080">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1665505823330" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1665505823330">
+    <state width="1323" height="314" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1667407149080" />
+    <state width="1323" height="314" key="GridCell.Tab.0.left" timestamp="1667407149080">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1665505823330" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1665505823330">
+    <state width="1323" height="314" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1667407149080" />
+    <state width="1323" height="314" key="GridCell.Tab.0.right" timestamp="1667407149081">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1665505823330" />
+    <state width="1323" height="314" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1667407149081" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1662036688926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -491,6 +492,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$input_threading_demo.coverage" NAME="input_threading_demo Coverage Results" MODIFIED="1634367491549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/input_threading" />
     <SUITE FILE_PATH="coverage/pythonProject$wordCloud.coverage" NAME="wordCloud Coverage Results" MODIFIED="1633707416954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/2_wordCloud" />
     <SUITE FILE_PATH="coverage/pythonProject$bs4_BeautifulSoup.coverage" NAME="bs4_BeautifulSoup Coverage Results" MODIFIED="1634490428812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/bs4_demo" />
+    <SUITE FILE_PATH="coverage/pythonProject$get_video_from_cctv366.coverage" NAME="get_video_from_cctv366 Coverage Results" MODIFIED="1667407149053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request" />
     <SUITE FILE_PATH="coverage/pythonProject$json_response.coverage" NAME="json_response Coverage Results" MODIFIED="1634745051102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
     <SUITE FILE_PATH="coverage/pythonProject$hiveDB.coverage" NAME="hiveDB Coverage Results" MODIFIED="1649770656028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connectDB" />
     <SUITE FILE_PATH="coverage/pythonProject$create_data_into_excel.coverage" NAME="create_data_into_excel Coverage Results" MODIFIED="1665505804744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dist" />
