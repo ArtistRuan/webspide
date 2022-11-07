@@ -22,6 +22,27 @@ import yaml
 import re
 
 def download_video(proxies):
+
+    header = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36'
+    }
+
+    for episode in range(30,31):
+        print('第',episode,'集')
+        mp4_url = f'https://www.cctv365.co/vodplay/47-1-{episode}.html'
+        print(f'data_url={mp4_url}')
+
+        session = requests.Session()
+        # 服务器返回视频数据
+        res = session.get(mp4_url,headers=header,proxies=proxies)
+        # 网页编码 请求头 服务器的链接信息
+        res.encoding = res.apparent_encoding
+        print(res.content)
+        with open('mp4_info.mp4',mode='wb') as fp:
+            fp.write(res.content)
+
+
+def download_video2(proxies):
     header = {"Content-Type": "application/json;charset=UTF-8", "Referer": "125223222",
               'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36 LBBROWSER'
               }
@@ -32,20 +53,22 @@ def download_video(proxies):
     # }
     # 用session对象替代requests发起请求
     session = requests.Session()
+    dst = '潜行狙击.mp4'
 
     for episode in range(30,31):
-        print('页数=',episode)
+        print('第',episode,'集')
         data_url = f'https://www.cctv365.co/vodplay/47-1-{episode}.html'
-        # 获取文件长度
+        print(f'data_url={data_url}')
+        #获取文件长度
         try:
             file_size = int(urlopen(data_url).info().get('Content-Length',-1))
         except Exception as e:
             print(e)
-            print(f"错误，访问url: {data_url} 异常")
+            print(f"错误，访问url异常: {data_url} ")
             return False
 
         # 判断文件是否存在
-        dst = '潜行狙击.mp4'
+
         if os.path.exists(dst):
             # 获取文件大小
             first_byte = os.path.getsize(dst)
@@ -59,7 +82,8 @@ def download_video(proxies):
 
         pbar = tqdm(
             total=file_size, initial=first_byte,
-            unit='B', unit_scale=True, desc=data_url.split('/')[-1])
+            unit='B', unit_scale=True, desc=data_url.split('/')[-1]
+        )
 
         # 访问url进行下载
         req = requests.get(data_url, headers=header, stream=True)
@@ -86,6 +110,7 @@ def main():
             print('===========配置信息如下===========')
             print(config_info)
             config = yaml.load(config_info,Loader=yaml.FullLoader)
+            # proxies = {"HTTP": '39.106.228.34:8080'}
             proxies = {config['prd']['proxies_method']: config['prd']['proxies_ip'] + ':' + config['prd']['proxies_port']}
             print('===========代理是===========proxies=',proxies)
 
