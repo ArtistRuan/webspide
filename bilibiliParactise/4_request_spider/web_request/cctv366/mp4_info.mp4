@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>无尽播放器</title>
+    <meta name="referrer" content="never">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!-- IE内核 强制使用最新的引擎渲染网页 -->
+    <meta name="renderer" content="webkit">  <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0 ,maximum-scale=1.0, user-scalable=no">
+    <meta name="x5-fullscreen" content="true">  <!-- 手机H5兼容模式 -->
+    <meta name="x5-page-mode" content="app"> <!-- X5  全屏处理 -->
+    <meta name="full-screen" content="yes">
+    <meta name="browsermode" content="application">  <!-- UC 全屏应用模式 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/> <!--  苹果全屏应用模式 -->
+    <link rel="stylesheet" href="static/css/wujin.css"/>
+</head>
+<style>
+    :root {
+        --plyr-color-main: #00b2ff;
+    }
+
+    body, html {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: black;
+    }
+
+    #container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .plyr--video {
+        height: 100%;
+    }
+</style>
+<body>
+<div id="container">
+    <video id="player" style="display: none;" crossorigin="anonymous" webkit-playsinline="true"
+           playsinline="true" preload="auto" autoplay controls></video>
+</div>
+
+<script src="static/js/wujin.js"></script>
+<script src="static/js/hls.min.js"></script>
+
+<script>
+    window.onload = () => {
+        document.querySelector('#player').style.display = '';
+        const vid = window.location.href.split("url=")[1];
+        const player = new Plyr('#player', {
+            autoplay: true,
+            controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen'],
+            i18n: {
+                speed: '倍速',
+                normal: '默认'
+            },
+            fullscreen: { enabled: true, fallback: true, iosNative: true, container: null },
+            speed: {selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]}
+        });
+        const video = document.querySelector('#player');
+        if (Hls.isSupported() && vid.indexOf('m3u8') !== -1) {
+            const hls = new Hls();
+            hls.loadSource(vid);
+            hls.attachMedia(video);
+            hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                video.play();
+            });
+        } else {
+            video.src = vid;
+            video.play();
+        }
+        video.addEventListener('loadedmetadata', () => {
+            let hasLastTime = localStorage.getItem(window.btoa(vid));
+            video.currentTime = hasLastTime ? hasLastTime : 0;
+        });
+        let lastTime, currentTime;
+        video.addEventListener('timeupdate', e => {
+            let currentTime = Math.floor(video.currentTime);
+            if (currentTime - lastTime < 1) return;
+            lastTime = currentTime;
+            localStorage.setItem(window.btoa(vid), currentTime.toString());
+        });
+    }
+</script>
+</body>
+</html>
