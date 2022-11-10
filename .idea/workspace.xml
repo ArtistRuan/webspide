@@ -11,19 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/潜行狙击第22集.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/潜行狙击第30集.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/pearvideo/get_video_from_pearvideo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/pearvideo/pearvideo.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/pearvideo/专访局座张召忠：谁能忽悠得过我.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/pearvideo/谁能忽悠得过我.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/spiders/baidu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/cctv366_config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/download/['韩雪 蝴蝶不知身是梦3440x1440带鱼屏壁纸'].jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/download/['韩雪 蝴蝶不知身是梦3440x1440带鱼屏壁纸'].jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/download/resource.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/download/resource.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/download/韩雪.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/download/韩雪.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/get_video_from_cctv366.py" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/get_video_from_cctv366.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/mp4_info.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/mp4_info.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -384,7 +381,7 @@
       <workItem from="1667830673079" duration="3195000" />
       <workItem from="1667914094606" duration="7316000" />
       <workItem from="1667998188152" duration="11083000" />
-      <workItem from="1668084148632" duration="8354000" />
+      <workItem from="1668084148632" duration="11887000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
