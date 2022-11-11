@@ -11,16 +11,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_spider/scrapy_spider/spiders/baidu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/4K 云 天空 星星 光 风景 电脑壁纸 3840x2160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/4K 可爱 美女 梳妆台 镜子 鞠婧祎 黑色裙子 电脑 壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/4k 孤独的树 红色树叶 唯美 湖水 落叶 中央 倒影 山 风景 电脑 壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/4k 小清新 阳光 居家 美女壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/4k 清纯 可爱 美女 白色衣服 好看 电脑壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/4k 清纯美女 双手伸直 居家 养眼 可爱 桌面.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/4k 美女 古风 长头发 头饰 唯美 侧脸 电脑壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/4k 美女 白色古装 古风 小溪 瀑布 岩石 高清 壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/4k 高清 刘亦菲 看书 绿色草地 美女 护眼 电脑壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/冬天 极光 雪 夜晚 天空 唯美 动漫4k壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/原神 妮露 同人 少女 水手服 4k 超高清 动漫 壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/古装 古风 美女 清新 护眼 4k 壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/古韵 书香 养眼 长发美女 闭眼 4k 电脑壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/可爱 居家 女孩 画画 美女 4k 电脑壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/可爱圣诞美女 帽子 毛衣 雪花 高清4k壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/唯美 粉色古装美女 花 户外 4k 电脑 壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/微软 海洋天使 天蓝色 4k电脑风景壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/户外 唯美 好看古装美女 4k 壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/未来科幻 太空 宇宙 房间 床 树 机械人女孩 星球4k动漫壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/梳妆台 靓丽美女 鞠婧祎 黑色裙子 4k 电脑 高清 壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/猫羽雫 蓝色眼睛女子 尾巴 女孩子 猫耳 猫 可爱二次元动漫4k壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/白鹿 好看侧脸 古装 红色 4k 美女壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/白鹿 红色古装 美女 4k 壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/粉色古装 古风 美女 长头发 4k 电脑 壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/紫色眼睛女孩 项链 毛发 厚涂画 唯美 高清 4k 动漫壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/赛博朋克风格奇幻少女 集原美电脑4k壁纸3840x2160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/长发 粉色古装 美女 回头 4k 桌面壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/阳光树林森林自然风景4k壁纸3840x2160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/鞠婧祎 黑色裙子 镜子 梳妆台 4k 美女 桌面 壁纸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_web_pic/鲸鱼 女孩 日落 大海 唯美 梦幻 4k 动漫 壁纸.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/get_video_from_cctv366.py" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/get_video_from_cctv366.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +70,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="f118cd20-31b6-4af3-8604-e66c94bb640b" />
+  <component name="JupyterTrust" id="4c17d9e4-fbad-4247-ad8a-0b0518cfcbd3" />
   <component name="ProjectId" id="1yjCIKImNGPFPManBQydPp0DL2R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -82,6 +104,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.get_video_from_cctv366 (1)">
+    <configuration name="4k_pic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic/4k_pic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="create_data_into_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,35 +236,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yj_gov_house_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses/yj_gov_house_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.get_video_from_cctv366 (1)" />
+        <item itemvalue="Python.4k_pic" />
         <item itemvalue="Python.get_video_from_pearvideo" />
         <item itemvalue="Python.get_video_from_cctv366" />
         <item itemvalue="Python.create_data_into_excel" />
-        <item itemvalue="Python.yj_gov_house_data" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +403,8 @@
       <workItem from="1667830673079" duration="3195000" />
       <workItem from="1667914094606" duration="7316000" />
       <workItem from="1667998188152" duration="11083000" />
-      <workItem from="1668084148632" duration="11887000" />
+      <workItem from="1668084148632" duration="12334000" />
+      <workItem from="1668177031052" duration="2787000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
@@ -421,22 +444,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="no message" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="241" key="GridCell.Tab.0.bottom" timestamp="1668095218740">
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom" timestamp="1668183742072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668095218740" />
-    <state width="1323" height="241" key="GridCell.Tab.0.center" timestamp="1668095218739">
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668183742072" />
+    <state width="1323" height="215" key="GridCell.Tab.0.center" timestamp="1668183742072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668095218739" />
-    <state width="1323" height="241" key="GridCell.Tab.0.left" timestamp="1668095218739">
+    <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668183742072" />
+    <state width="1323" height="215" key="GridCell.Tab.0.left" timestamp="1668183742072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668095218739" />
-    <state width="1323" height="241" key="GridCell.Tab.0.right" timestamp="1668095218740">
+    <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668183742072" />
+    <state width="1323" height="215" key="GridCell.Tab.0.right" timestamp="1668183742072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668095218740" />
+    <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668183742072" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1662036688926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -505,8 +528,8 @@
     <SUITE FILE_PATH="coverage/pythonProject$python_excel.coverage" NAME="python_excel Coverage Results" MODIFIED="1634960966933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/1_about_excel" />
     <SUITE FILE_PATH="coverage/pythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1650300776490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
     <SUITE FILE_PATH="coverage/pythonProject$easy_mail.coverage" NAME="easy_mail Coverage Results" MODIFIED="1634049924689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
-    <SUITE FILE_PATH="coverage/pythonProject$4k_pic.coverage" NAME="4k_pic Coverage Results" MODIFIED="1634497635670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic" />
-    <SUITE FILE_PATH="coverage/pythonProject$get_video_from_cctv366__1_.coverage" NAME="get_video_from_cctv366 (1) Coverage Results" MODIFIED="1668095194379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366" />
+    <SUITE FILE_PATH="coverage/pythonProject$4k_pic.coverage" NAME="4k_pic Coverage Results" MODIFIED="1668183241450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic" />
+    <SUITE FILE_PATH="coverage/pythonProject$get_video_from_cctv366__1_.coverage" NAME="get_video_from_cctv366 (1) Coverage Results" MODIFIED="1668183438945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366" />
     <SUITE FILE_PATH="coverage/pythonProject$math_funct.coverage" NAME="math_funct Coverage Results" MODIFIED="1633853037229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/6_math_func" />
     <SUITE FILE_PATH="coverage/pythonProject$input_threading_demo.coverage" NAME="input_threading_demo Coverage Results" MODIFIED="1634367491549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/input_threading" />
     <SUITE FILE_PATH="coverage/pythonProject$wordCloud.coverage" NAME="wordCloud Coverage Results" MODIFIED="1633707416954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/2_wordCloud" />

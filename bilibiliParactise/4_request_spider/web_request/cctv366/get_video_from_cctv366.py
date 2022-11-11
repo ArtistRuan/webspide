@@ -26,34 +26,39 @@ def download_video(proxies):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36'
     }
+    session = requests.Session()
 
-    for episode in range(30,31):
+    for episode in range(22,23):
         print('第',episode,'集')
         # // *[ @ id = "mo-play-iframe"]
         # /html/body/div[3]/div/div[1]/div[1]/iframe
-        home_url = f'https://www.cctv365.co/vodplay/47-1-{episode}.html'
+        # home_url = f'https://www.cctv365.co/vodplay/47-1-{episode}.html'
+        home_url = f'https://www.cctv365.co/vodplay/55640-1-{episode}.html'
         print(f'home_url={home_url}')
 
-        session = requests.Session()
         # 服务器返回视频数据
-        home_res = session.get(home_url,headers=headers,proxies=proxies)
+        home_res = session.get(url=home_url,headers=headers,proxies=proxies).text
+        print(f'home_res={home_res}')
         # 对响应数据进行编码，避免乱码
-        home_res.encoding = 'utf-8'
+        # home_res.encoding = 'utf-8'
         # 网页编码 请求头 服务器的链接信息
         # res_page.encoding = res_page.apparent_encoding
         # print(res)
-        page_etree = etree.HTML(home_res.text)
+        page_etree = etree.HTML(home_res)
+        print(f'page_etree={page_etree}')
         # mp4_url = page_etree.xpath('//*[@id="mo-play-iframe"]/@src')
-        # mp4_url = 'https://jx.xhswglobal.com/dplayer/?url=https://new.qqaku.com/20220219/9WK5lypO/index.m3u8'
-        mp4_url = page_etree.xpath('/html/body/div[3]/div/div[1]/div[1]/iframe/@src')
+        # mp4_url = 'https://jx.wolongzywcdn.com:65/m3u8.php?url=https://wolongzywcdn.com:65/QHm5N4DU/index.m3u8'
+        # mp4_url = page_etree.xpath('/html/body/div[3]/div/div[1]/div[1]/iframe/@src')
         # mp4_url = page_etree.xpath('//iframe[@class="mo-play-iframe"]/@src')
+        mp4_url = page_etree.xpath('//*[@id="mo-play-iframe"]/@src')
+
 
         print(f'mp4_url={mp4_url}')
-        mp4_res = session.get(url=r'https://jx.xhswglobal.com/dplayer/?url=https://new.qqaku.com/20220219/9WK5lypO/index.m3u8',
-                              headers=headers, proxies=proxies)
+        # mp4_res = session.get(url=r'https://jx.xhswglobal.com/dplayer/?url=https://new.qqaku.com/20220219/9WK5lypO/index.m3u8',headers=headers, proxies=proxies)
+        # mp4_res = session.get(url=mp4_url,headers=headers, proxies=proxies)
 
-        with open('潜行狙击第30集.mp4',mode='wb') as fp:
-            fp.write(mp4_res.content)
+        # with open('潜行狙击第30集.mp4',mode='wb') as fp:
+        #     fp.write(mp4_res.content)
 
 
 def download_video2(proxies):
