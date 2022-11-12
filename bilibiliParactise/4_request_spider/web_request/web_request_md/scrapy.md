@@ -134,3 +134,35 @@ response.xpath()
 # 4 注意项：对于第一个标签数据，因为不含懒加载，没有data-original，所以还是src
 ```
 ![](懒加载验证识别.png)
+
+### CrawlSpider
+```shell script
+# 1.继承scrapy.Spider，可以定义规则，再解析html内容的时候，可以根据链接规则提取出指定的链接，然后再向这些链接发送请求
+# 2.所以如果有需要跟进链接的需求，意思就是爬取了网页之后，需要提取链接再次爬取，使用CrawlSpider是非常合适的
+# 3.提取链接，在这里就可以写规则提取指定链接
+# 3.1 导包
+from scrapy.linkextractors import LinkExtractor
+# 3.2 正则表达式，提取符合正则的链接
+scrapy.linkextractors.LinkExtractor(allow=())
+# 3.3 提取符合xpath规则的链接
+scrapy.linkextractors.LinkExtractor(restrict_xpath=())
+# 3.4 提取符合选择器规则的链接
+scrapy.linkextractors.LinkExtractor(retrict_css=())
+# 3.5 正则表达式，不提取符合正则的链接（该方法不用，仅了解）
+scrapy.linkextractors.LinkExtractor(deny=())
+# 3.6 允许的域名（该方法不用，仅了解）
+scrapy.linkextractors.LinkExtractor(allow_domains=())
+# 3.7 不允许的域名（该方法不用，仅了解）
+scrapy.linkextractors.LinkExtractor(deny_domains=())
+
+# 比如1：
+# 指定规则
+link = LinkExtractor(allow=r'/book/1188_\d+\.html')
+# 提取链接
+link.extract_links(response)
+# 比如2：
+# 指定规则
+link1 = LinkExtractor(restrict_xpaths=r'//div[@class="pages"]/a')
+# 提取链接
+link1.extract_links(response)
+```

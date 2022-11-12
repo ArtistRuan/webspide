@@ -11,78 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 2023国家公务员考试题库系列：必做习题集（申论+行政职业能力测验）2本套.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 2023版决战申论100题（2册）.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 2023高考数学真题分类狂刷基础2000题 蔡德锦李尚泽 高考数学历年真题全刷试卷2022菜菜泽哥新高考数学2000道李.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ JGJ 116-2009 建筑抗震加固技术规程 实施日期 2009年8月1日 中国建筑工业出版社 现行规范可提供增值税发.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ mba历年真题2023 mba联考英语二真题+综合历年真题试卷全套 204考研英语二真题 199管理类联考综合能力数学逻.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ mba考研教材2023 mab教材2023 mba联考数学英语写作逻辑四分册 高等教育出版社教材全套 mpacc专硕 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 【现货速发】中国居民膳食指南2022 中国营养学会编 人卫正版 营养师科学全书营养素参考摄入量考试培训教材 2022 孕.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 中公2023公务员考试真题大全申论.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 中公2023国考2023省考联考公务员考试轻松学行测必做5000题 行测专项题库轻松学资料言语数量常识判断（套装10册）.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 中公公务员2023公务员考试核心考点手册行测速解技巧集萃（全新升级）.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 中公公务员专项题库2023公务员考试专项题库 申论+常识判断+判断推理+数量关系+资料分析+言语理解与表达（套装6本）.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 中公国考2023国家公务员录用考试 全真题库3500题行政职业能力测验（全新升级）.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 中公国考2023国家公务员考试 行政职业能力测验（全新升级）.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 中公国考2023国家公务员考试教材历年模拟6本 行政职业能力测验+申论（教材+历年真题精解+全真模拟试卷）（套装6本）.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 二级建造师2023备考 二级建造师2022教材全套 建筑 二建教材2022建筑+历年真题押题习题试卷题库 二级建造师建筑.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 二级建造师2023教材配套真题 全套历年真题 建筑土建房建市政园林机电工程水利公路专业任选 二级建造师真题 二建历年真题.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 公务员考试用书2023 粉笔5000题 国考省考联考真题全套 粉笔公考2023 行测5000题言语理解判断推理数量常识资.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 公务员考试用书2023 粉笔公考 粉笔行测5000题 申论100题全套14本 国考省考公务员行测题库专项模块 言语理解判.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 公务员考试用书2023 粉笔行测的思维+申论的规矩教材全套 粉笔公考2023 国考省考联考通用备考2024 如需粉笔行测.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 决战行测5000题·判断推理（全两册）2023版 粉笔公考 国考省考通用.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 决战行测5000题·常识（全两册）2023版 粉笔公考 国考省考通用.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 决战行测5000题·数量关系（上下册） 粉笔公考 国考省考通用.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 决战行测5000题·言语理解与表达（全两册）2023版 粉笔公考 国考省考通用.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 决战行测5000题·资料分析（全两册） 粉笔公考 国考省考通用.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 初级会计2023题库 初级会计职称考试真题卷2023 初级会计师历年真题 经济法基础初级会计实务全套4本 初级会计202.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 半月谈2023申论楷书字帖 热点素材字帖 申论标准楷书字帖 高度仿真 学练结合 适用2022省考 国家公务员考试2023.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 半月谈申论字帖专用楷书 半月谈真题范文字帖 公务员考试练字字帖 范文练字帖 考公2022省考国考 赠品字帖随机发货无法选.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 国考真题2023国家公务员考试历年真题 国家公务员考试2022 国家公务员考试真题 国考历年真题 国考2023 国家公务.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 备考2023 一级建造师2022教材 配套试卷 一级建造师历年真题 一建真题试卷 8本套 一建建筑2022 可选土建房建.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 备考2023 一级建造师2022教材建筑 一建2022建筑实务教材官方 一级建造师教材 一建历年真题试卷 一建考试用书全.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 备考2023 中级经济师 人力资源 经济师中级2022人力资源+经济基础知识 全套6本 中级经济师2022人力资源管理教.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 备考2023 初级会计2022 初级会计职称考试教材2022 会计初级职称教材2022+历年真题机考押题模拟试卷 经济法.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 备考2023 注册安全工程师2022教材其他安全 中级安全工程师2022教材 其他安全专业全套4本 专业实务安全生产管理.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 教师资格证2022小学 中学 高中 教师资格证考试用书 公共课全套视频+全套题库+教师资格面试相关课程 云考点网校 收到.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 新东方四级真题 大学英语四级真题试卷 四级真题逐句精解 备考2022年9月12月 考试历年真题详解试卷+模拟试卷资料试题.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 星火英语四级真题详解+标准预测 备考2022年12月 赠四级词汇 星火四级真题 四六级大学英语真题 星火四级考试英语真题.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 正版 高职高考2023广东省高职高考教材中职生3+证书对口升学考试语文数学英语复习教材习题模拟 全9本 2023年广东省.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 每日箴言一句话改变人生典藏版人际交往沟通技巧智慧人生哲学青文学成功正能量励志书心灵鸡汤提升自身气场人生哲理 978753.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 注册安全工程师2022教材视频 其他化工建筑施工安全 双网校" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 环球网校 备考大礼包 考研2023 考研英语一二政治数学 电子资料 考研英语数学名师视频课程2023 考研英语视频课程学.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 申论写作八讲.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 申论的规矩2023版 粉笔公考 国考省考通用.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 社会工作者初级2023辅导教材+社会工作者初级历年真题试卷 实务综合能力 社工初级2023考试题库习题 社工初级2023.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 粉笔APP行测&amp;申论双会员兑换卡（3个月）.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 粉笔教师资格证2022小学 2023上半年备考 下半年新版 小学考试教材真题全套 粉笔教资小学全套教材历年真题 小学教师.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 粉笔教师资格证2022高中英语 2023上半年备考 全套10册 粉笔教师资格证高中英语 高中教师资格证考试用书2022全.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 红宝书考研英语2023 考研英语词汇红宝书 热词红宝书 考研红宝书 英语一英语二历年真题词汇单词书 可备考2024 可另.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 羿文教育电子版题库2022营养师注册营养师注册营养技师基础知识国家职业资格三级国家职业资格四级刷题软件题库资料2022年.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 羿文教育题库2022大学英语 大学英语四级 大学英语六级 英语专业四级 英语专业八级 学士学位英语 英语A级 英语B级刷.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 老夏说公务员面试——助你顺利考上公务员.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 老夏说公务员面试：100真题摆平面试.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 考研真相英语二2024全套 考研真相真题 考研圣经 考研英语二2024 2004-2023 真题解析篇1234+真题配套.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 考研词汇闪过2024 考研英语词汇 张国静 考研英语二一单词 频考基础偶考超纲词考研英语单词 张国静考研英语词汇书 考研.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 考研词汇闪过2024 考研英语词汇张国静 常考词+基础词+偶考词+超纲词 词根联想 考研英语一二单词词根词缀2023 乱.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 肖秀荣2023考研政治 肖秀荣考研政治2023 知识点精讲精练+肖秀荣1000题+肖四肖八 全套8本 101思想政治理论.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 英语四级六级真题 羿文教育电子版题库2022大学英语 大学英语四级 大学英语六级 英语专业四级 英语专业八级 学士学位英.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 行测的思维2023版 粉笔公考 国考省考通用.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 赠品（单拍不发货赠完即止）中公2023国家公务员录用考试题库系列必做习题集申论（全新升级）.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/books/ 赠品（单拍不发货赠完即止）中公2023国家公务员录用考试题库系列必做习题集行政职业能力测验（全新升级）.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/dangdang.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/web_request_md/反爬懒加载正确数据获取.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/web_request_md/懒加载验证识别.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/spiders/movie.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/spiders/movies.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy.md" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/web_request_md/scrapy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/dangdang.py" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/dangdang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/web_request_md/scrapy.md" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/web_request_md/scrapy.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -445,7 +385,7 @@
       <workItem from="1667998188152" duration="11083000" />
       <workItem from="1668084148632" duration="12334000" />
       <workItem from="1668177031052" duration="2787000" />
-      <workItem from="1668229333235" duration="17657000" />
+      <workItem from="1668229333235" duration="27153000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>

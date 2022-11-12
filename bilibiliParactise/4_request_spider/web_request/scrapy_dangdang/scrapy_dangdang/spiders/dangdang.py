@@ -4,6 +4,10 @@ import scrapy
 # 导包，将爬取到的数据进行保存
 from scrapy_dangdang.items import ScrapyDangdangItem
 
+"""
+@autho:ruanshikao
+@time:2022-11-12 18:10
+"""
 
 class DangdangSpider(scrapy.Spider):
     name = 'dangdang'
