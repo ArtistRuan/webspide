@@ -135,7 +135,7 @@ response.xpath()
 ```
 ![](懒加载验证识别.png)
 
-### CrawlSpider
+### CrawlSpider基本概念和方法
 ```shell script
 # 1.继承scrapy.Spider，可以定义规则，再解析html内容的时候，可以根据链接规则提取出指定的链接，然后再向这些链接发送请求
 # 2.所以如果有需要跟进链接的需求，意思就是爬取了网页之后，需要提取链接再次爬取，使用CrawlSpider是非常合适的
@@ -165,4 +165,65 @@ link.extract_links(response)
 link1 = LinkExtractor(restrict_xpaths=r'//div[@class="pages"]/a')
 # 提取链接
 link1.extract_links(response)
+```
+
+### CrawlSpider的使用
+```shell script
+# 1 创建项目：
+scrapy startproject dushuwebsite
+# 2 跳转到spider路径
+cd \dushuprojct\dushuprojct\spiders
+# 3 创建爬虫类，比之前多了-t crawl，表示用crawl默认模板
+# 命令：scrapy genspider -t crawl 爬虫文件名 网站域名
+scrapy genspider -t crawl readbooks www.dushu.com
+# 4 执行等操作与上述scrapy一致
+# 5 爬取到的数据需要入数据库，就要到setting中添加数据库的配置，如mysql配置：
+DB_HOST = 'localhost'
+# 端口号是一个整数
+DB_PORT = 3306
+DB_USER = 'root'
+DB_PASSWORD = '123456'
+DB_NAME = 'spider'
+DB_CHARSET = 'utf-8'
+# 6 在pipelines.py中定义处理数据入库的类
+class MysqlPipeline:
+
+    def open_spider(self,spider):
+
+        settings = get_project_settings()
+        self.host = settings["DB_HOST"]
+        self.port = settings["DB_PORT"]
+        self.user = settings["DB_USER"]
+        self.password = settings["DB_PASSWORD"]
+        self.name = settings["DB_NAME"]
+        self.charset = settings["DB_CHARSET"]
+
+        self.connect()
+
+    # 为了使用清晰，connect()额外定义
+    def connect(self):
+        self.conn = pymysql.connect(
+            host=self.host,
+            port=self.port,
+            user=self.user,
+            passwd=self.password,
+            db=self.name,
+            charset=self.charset
+        )
+
+        self.cursor = self.conn.cursor()
+
+    def process_item(self, item, spider):
+
+        sql = 'insert into book(name,src) values ("{}","{}")'.format(item['name'],item['src'])
+        # 执行sql语句
+        self.cursor.execute(sql)
+        # 提交
+        self.conn.commit()
+
+        return item
+
+    def close_spider(self,spider):
+        self.cursor.close()
+        self.conn.close()
 ```
