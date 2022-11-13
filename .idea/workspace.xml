@@ -10,20 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/spiders/movie.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/spiders/movies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/dangdang.py" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/dangdang.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/web_request_md/scrapy.md" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/web_request_md/scrapy.md" afterDir="false" />
-    </list>
+    <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -385,7 +372,7 @@
       <workItem from="1667998188152" duration="11083000" />
       <workItem from="1668084148632" duration="12334000" />
       <workItem from="1668177031052" duration="2787000" />
-      <workItem from="1668229333235" duration="27153000" />
+      <workItem from="1668229333235" duration="27392000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
@@ -429,22 +416,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="111" y="224" key="GrepConsoleSound/0.0.1366.728@0.0.1366.728" timestamp="1668241272226" />
-    <state width="1323" height="183" key="GridCell.Tab.0.bottom" timestamp="1668247520013">
+    <state width="1323" height="183" key="GridCell.Tab.0.bottom" timestamp="1668265283874">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668247520013" />
-    <state width="1323" height="183" key="GridCell.Tab.0.center" timestamp="1668247520013">
+    <state width="1323" height="183" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668265283874" />
+    <state width="1323" height="183" key="GridCell.Tab.0.center" timestamp="1668265283874">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668247520013" />
-    <state width="1323" height="183" key="GridCell.Tab.0.left" timestamp="1668247520012">
+    <state width="1323" height="183" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668265283874" />
+    <state width="1323" height="183" key="GridCell.Tab.0.left" timestamp="1668265283873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668247520012" />
-    <state width="1323" height="183" key="GridCell.Tab.0.right" timestamp="1668247520013">
+    <state width="1323" height="183" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668265283873" />
+    <state width="1323" height="183" key="GridCell.Tab.0.right" timestamp="1668265283874">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668247520013" />
+    <state width="1323" height="183" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668265283874" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1668240852344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
