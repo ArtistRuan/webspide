@@ -11,24 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushu/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushu/scrapy_dushu/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushu/scrapy_dushu/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushu/scrapy_dushu/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushu/scrapy_dushu/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushu/scrapy_dushu/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushu/scrapy_dushu/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushu/scrapy_dushu/spiders/books.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushu/scrapy_dushu/spiders/dushu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushuwebsite/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushuwebsite/scrapy_dushuwebsite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushuwebsite/scrapy_dushuwebsite/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushuwebsite/scrapy_dushuwebsite/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushuwebsite/scrapy_dushuwebsite/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushuwebsite/scrapy_dushuwebsite/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushuwebsite/scrapy_dushuwebsite/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushuwebsite/scrapy_dushuwebsite/spiders/books.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dushuwebsite/scrapy_dushuwebsite/spiders/readbooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_log_demo/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_log_demo/scrapy_log_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_log_demo/scrapy_log_demo/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_log_demo/scrapy_log_demo/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_log_demo/scrapy_log_demo/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_log_demo/scrapy_log_demo/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_log_demo/scrapy_log_demo/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_log_demo/scrapy_log_demo/spiders/logdemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/web_request_md/scrapy.md" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/web_request_md/scrapy.md" afterDir="false" />
     </list>
@@ -394,7 +384,7 @@
       <workItem from="1668084148632" duration="12334000" />
       <workItem from="1668177031052" duration="2787000" />
       <workItem from="1668229333235" duration="27392000" />
-      <workItem from="1668316584588" duration="17897000" />
+      <workItem from="1668316584588" duration="20251000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>

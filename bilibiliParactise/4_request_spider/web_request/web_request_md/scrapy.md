@@ -227,3 +227,25 @@ class MysqlPipeline:
         self.cursor.close()
         self.conn.close()
 ```
+### 日志信息和日志等级 
+
+##### 1 日志级别
+- CRITICAL: 严重错误
+- ERRO:     一般错误
+- WARNING:  警告
+- INFO:     一般信息
+- DEBUG:    调试信息
+
+默认的日志等级是DEBUG，只要出现了DEBUG或者DEBUG以上的日志，那么这些日志都会打印
+
+##### 2 日志级别设置
+
+在配置文件settings.py中，添加日志等级的配置
+
+LOG_FILE:将屏幕显示的信息全部记录到文件中，屏幕不再显示，注意文件后缀一定是.log。一般建议
+
+LOG_LEVEL:设置日志显示等级，显示哪些，不显示哪些。一般不建议
+```python
+LOG_LEVEL='WARNING'
+LOG_FILE='logdemo.log'
+```
