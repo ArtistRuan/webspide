@@ -249,3 +249,20 @@ LOG_LEVEL:设置日志显示等级，显示哪些，不显示哪些。一般不�
 LOG_LEVEL='WARNING'
 LOG_FILE='logdemo.log'
 ```
+
+### post请求的scrapy方法
+```python
+# 对于Post请求需要携带参数的，start_urls及默认的parse(self,response)无法处理
+# 需要额外定义start_requests来处理请求
+import scrapy
+import json
+def start_requests(self):
+    # 起始url
+    url = 'https://fanyi.baidu.com/sug'
+    data = {'kw':'final'}
+    yield scrapy.FormRequest(url=url,formdata=data,callback=self.parse_second)
+def parse_second(self,response):
+    content = response.text
+    obj = json.loads(content,encoding='utf-8')
+    print(obj)
+```
