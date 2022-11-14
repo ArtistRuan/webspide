@@ -23,13 +23,17 @@ class TranslateSpider(scrapy.Spider):
     for infile in glob.glob(os.path.join(log_path,'*.log')):
         os.remove(infile)
 
+
+
     # post
     def start_requests(self):
 
         url = 'https://fanyi.baidu.com/sug'
+        word = input("请输入要查询的内容:")
 
         data = {
-            'kw':'final'
+            # 'kw':'final'
+            'kw':f'{word}'
         }
 
         yield scrapy.FormRequest(url=url,formdata=data,callback=self.parse_second)

@@ -10,30 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_baidu_translate/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_baidu_translate/scrapy_baidu_translate/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_baidu_translate/scrapy_baidu_translate/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_baidu_translate/scrapy_baidu_translate/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_baidu_translate/scrapy_baidu_translate/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_baidu_translate/scrapy_baidu_translate/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_baidu_translate/scrapy_baidu_translate/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_baidu_translate/scrapy_baidu_translate/spiders/testpost.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_baidu_translate/scrapy_baidu_translate/spiders/testpost.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_translate/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_translate/scrapy_translate/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_translate/scrapy_translate/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_translate/scrapy_translate/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_translate/scrapy_translate/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_translate/scrapy_translate/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_translate/scrapy_translate/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_translate/scrapy_translate/spiders/log/translate_20221114231642.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_translate/scrapy_translate/spiders/translate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_translate/scrapy_translate/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/spiders/movie.json" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dytt_movies/scrapy_dytt_movies/spiders/movie.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/web_request_md/scrapy.md" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/web_request_md/scrapy.md" afterDir="false" />
-    </list>
+    <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -397,7 +374,7 @@
       <workItem from="1668177031052" duration="2787000" />
       <workItem from="1668229333235" duration="27392000" />
       <workItem from="1668316584588" duration="20430000" />
-      <workItem from="1668432030090" duration="4964000" />
+      <workItem from="1668432030090" duration="5307000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
