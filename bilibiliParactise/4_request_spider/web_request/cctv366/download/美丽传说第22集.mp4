@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="renderer" content="webkit">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" id="viewport" name="viewport">
+<title>m3u8解析</title>
+<style type="text/css">body, html, .dplayer {padding: 0;margin: 0;width: 100%;height: 100%;color: #aaa;background-color: #000;}a{text-decoration: none;}</style>
+<script type="text/javascript" src="hls.min.js"></script>
+<script type="text/javascript" src="DPlayer.min.js"></script>
+<link type="text/css" href="DPlayer.min.css" rel="stylesheet">
+</head>
+<body>
+<div id="dplayer"></div>
+<script type="text/javascript">
+    const dp = new DPlayer({
+    container: document.getElementById('dplayer'),
+    autoplay: true,
+    loop: true,
+    video: {
+        url: "https://wolongzywcdn.com:65/QHm5N4DU/index.m3u8",
+        type: 'hls'
+    },
+});
+
+  </script>
+</body>
+</html>

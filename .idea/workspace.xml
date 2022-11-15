@@ -10,7 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message" />
+    <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/download/美丽传说第22集.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/urllib_video_366.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/page/baidu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/page/urllib_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/pic/lisa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/pic/urllib_pic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/video/demo.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/video/urllib_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="0dede11d-373b-434f-b06a-9d0ff151a5b2" />
+  <component name="JupyterTrust" id="37a6b589-d1eb-41cc-8e21-653ac0f936b8" />
   <component name="ProjectId" id="1yjCIKImNGPFPManBQydPp0DL2R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -55,13 +65,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\web_request_md" />
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\cctv366" />
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\yj_gov_houses" />
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_kanXiaoiejie" />
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\sogo_search" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request" />
       <recent name="G:\desktop\pythonProject\dataX\20220531" />
@@ -69,74 +72,15 @@
       <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\async_flask" />
       <recent name="G:\desktop\pythonProject\Demo\test" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\urllib_demo\page" />
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\urllib_demo\video" />
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\urllib_demo\pic" />
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\web_request_md" />
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\cctv366" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="dangdang" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/spiders/dangdang.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="get_video_from_cctv366 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/get_video_from_cctv366.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="love" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo/heartbeat/love" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/heartbeat/love/love.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.urllib_video_366">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,28 +95,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pipelines" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang/pipelines.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,13 +125,101 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="urllib_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\urllib_demo\page\urllib_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urllib_pic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\urllib_demo\pic\urllib_pic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urllib_video" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\urllib_demo\video\urllib_video.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urllib_video_366" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/urllib_video_366.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.urllib_video_366" />
+        <item itemvalue="Python.urllib_video" />
+        <item itemvalue="Python.urllib_pic" />
+        <item itemvalue="Python.urllib_page" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.love" />
-        <item itemvalue="Python.pipelines" />
-        <item itemvalue="Python.dangdang" />
-        <item itemvalue="Python.get_video_from_cctv366 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +384,8 @@
       <workItem from="1668177031052" duration="2787000" />
       <workItem from="1668229333235" duration="27392000" />
       <workItem from="1668316584588" duration="20430000" />
-      <workItem from="1668432030090" duration="5307000" />
+      <workItem from="1668432030090" duration="5589000" />
+      <workItem from="1668519107352" duration="4642000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
@@ -418,30 +429,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="111" y="224" key="GrepConsoleSound/0.0.1366.728@0.0.1366.728" timestamp="1668241272226" />
-    <state width="1323" height="183" key="GridCell.Tab.0.bottom" timestamp="1668438310754">
+    <state width="1323" height="481" key="GridCell.Tab.0.bottom" timestamp="1668527756323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668438310754" />
-    <state width="1323" height="183" key="GridCell.Tab.0.center" timestamp="1668438310754">
+    <state width="1323" height="481" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668527756323" />
+    <state width="1323" height="481" key="GridCell.Tab.0.center" timestamp="1668527756323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668438310754" />
-    <state width="1323" height="183" key="GridCell.Tab.0.left" timestamp="1668438310754">
+    <state width="1323" height="481" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668527756323" />
+    <state width="1323" height="481" key="GridCell.Tab.0.left" timestamp="1668527756322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668438310754" />
-    <state width="1323" height="183" key="GridCell.Tab.0.right" timestamp="1668438310754">
+    <state width="1323" height="481" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668527756322" />
+    <state width="1323" height="481" key="GridCell.Tab.0.right" timestamp="1668527756323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668438310754" />
+    <state width="1323" height="481" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668527756323" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1668240852344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1668240852344" />
-    <state x="385" y="67" width="750" height="594" key="find.popup" timestamp="1668439123442">
+    <state x="385" y="67" width="750" height="594" key="find.popup" timestamp="1668528739813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="385" y="67" width="750" height="594" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1668439123442" />
+    <state x="385" y="67" width="750" height="594" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1668528739813" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1668341076969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -463,6 +474,8 @@
     <SUITE FILE_PATH="coverage/pythonProject$yj_house.coverage" NAME="yj_house Coverage Results" MODIFIED="1636469738222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
     <SUITE FILE_PATH="coverage/pythonProject$requests_more.coverage" NAME="requests_more Coverage Results" MODIFIED="1634560743976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_kanXiaoiejie" />
     <SUITE FILE_PATH="coverage/pythonProject$mysql_connector.coverage" NAME="mysql_connector Coverage Results" MODIFIED="1633970283907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/3_database_related" />
+    <SUITE FILE_PATH="coverage/pythonProject$urllib_video.coverage" NAME="urllib_video Coverage Results" MODIFIED="1668525780514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo" />
+    <SUITE FILE_PATH="coverage/pythonProject$urllib_video_366.coverage" NAME="urllib_video_366 Coverage Results" MODIFIED="1668527724181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366" />
     <SUITE FILE_PATH="coverage/pythonProject$makeup_monitor.coverage" NAME="makeup_monitor Coverage Results" MODIFIED="1634386323886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/makeup_nation_monitor" />
     <SUITE FILE_PATH="coverage/pythonProject$email_demo.coverage" NAME="email_demo Coverage Results" MODIFIED="1633885797547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
     <SUITE FILE_PATH="coverage/pythonProject$yj_gov_house_data.coverage" NAME="yj_gov_house_data Coverage Results" MODIFIED="1663765680231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
@@ -478,6 +491,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$studentsys.coverage" NAME="studentsys Coverage Results" MODIFIED="1633846262366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vipSystem" />
     <SUITE FILE_PATH="coverage/pythonProject$58_second_houses.coverage" NAME="58_second_houses Coverage Results" MODIFIED="1634493140865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/58_second_houses" />
     <SUITE FILE_PATH="coverage/pythonProject$web_rank_douban.coverage" NAME="web_rank_douban Coverage Results" MODIFIED="1634469827279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_rank_douban" />
+    <SUITE FILE_PATH="coverage/pythonProject$urllib_page.coverage" NAME="urllib_page Coverage Results" MODIFIED="1668525140854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo" />
     <SUITE FILE_PATH="coverage/pythonProject$asyncio_tongbu.coverage" NAME="asyncio_tongbu Coverage Results" MODIFIED="1650175096995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask" />
     <SUITE FILE_PATH="coverage/pythonProject$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1668247514931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_dangdang/scrapy_dangdang" />
     <SUITE FILE_PATH="coverage/pythonProject$yaml_config.coverage" NAME="yaml_config Coverage Results" MODIFIED="1655743849423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dist" />
@@ -513,6 +527,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$bs4_BeautifulSoup.coverage" NAME="bs4_BeautifulSoup Coverage Results" MODIFIED="1634490428812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/bs4_demo" />
     <SUITE FILE_PATH="coverage/pythonProject$get_video_from_cctv366.coverage" NAME="get_video_from_cctv366 Coverage Results" MODIFIED="1668012430216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request" />
     <SUITE FILE_PATH="coverage/pythonProject$json_response.coverage" NAME="json_response Coverage Results" MODIFIED="1634745051102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
+    <SUITE FILE_PATH="coverage/pythonProject$urllib_pic.coverage" NAME="urllib_pic Coverage Results" MODIFIED="1668525424409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo" />
     <SUITE FILE_PATH="coverage/pythonProject$hiveDB.coverage" NAME="hiveDB Coverage Results" MODIFIED="1649770656028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connectDB" />
     <SUITE FILE_PATH="coverage/pythonProject$create_data_into_excel.coverage" NAME="create_data_into_excel Coverage Results" MODIFIED="1665505804744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dist" />
     <SUITE FILE_PATH="coverage/pythonProject$flask_demo.coverage" NAME="flask_demo Coverage Results" MODIFIED="1662039318329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/5_flask" />
