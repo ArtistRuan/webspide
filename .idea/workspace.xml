@@ -11,14 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/download/美丽传说第22集.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366/urllib_video_366.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/page/baidu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/page/urllib_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/pic/lisa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/pic/urllib_pic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/video/demo.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/video/urllib_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/request_bilibili.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/video/历时一个月！我们把19首周董封神曲目编成了一首歌_哔哩哔哩_bilibili.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/video/历时一个月！我们把19首周董封神曲目编成了一首歌_哔哩哔哩_bilibili.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/video/历时一个月！我们把19首周董封神曲目编成了一首歌_哔哩哔哩_bilibilioutput.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="37a6b589-d1eb-41cc-8e21-653ac0f936b8" />
+  <component name="JupyterTrust" id="1d59d1c1-aa11-4a93-ba58-cf14651dfa9a" />
   <component name="ProjectId" id="1yjCIKImNGPFPManBQydPp0DL2R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -80,7 +76,7 @@
       <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\cctv366" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.urllib_video_366">
+  <component name="RunManager" selected="Python.request_bilibili">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="request_bilibili" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,12 +107,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_translate/scrapy_translate" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/scrapy_translate/scrapy_translate/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/request_bilibili.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.request_bilibili" />
         <item itemvalue="Python.urllib_video_366" />
         <item itemvalue="Python.urllib_video" />
         <item itemvalue="Python.urllib_pic" />
         <item itemvalue="Python.urllib_page" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +381,10 @@
       <workItem from="1668229333235" duration="27392000" />
       <workItem from="1668316584588" duration="20430000" />
       <workItem from="1668432030090" duration="5589000" />
-      <workItem from="1668519107352" duration="4642000" />
+      <workItem from="1668519107352" duration="5010000" />
+      <workItem from="1668606710575" duration="1932000" />
+      <workItem from="1668695652411" duration="7989000" />
+      <workItem from="1668706968127" duration="431000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
@@ -429,30 +428,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="111" y="224" key="GrepConsoleSound/0.0.1366.728@0.0.1366.728" timestamp="1668241272226" />
-    <state width="1323" height="481" key="GridCell.Tab.0.bottom" timestamp="1668527756323">
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom" timestamp="1668707410374">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="481" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668527756323" />
-    <state width="1323" height="481" key="GridCell.Tab.0.center" timestamp="1668527756323">
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668707410374" />
+    <state width="1323" height="257" key="GridCell.Tab.0.center" timestamp="1668707410374">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="481" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668527756323" />
-    <state width="1323" height="481" key="GridCell.Tab.0.left" timestamp="1668527756322">
+    <state width="1323" height="257" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668707410374" />
+    <state width="1323" height="257" key="GridCell.Tab.0.left" timestamp="1668707410374">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="481" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668527756322" />
-    <state width="1323" height="481" key="GridCell.Tab.0.right" timestamp="1668527756323">
+    <state width="1323" height="257" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668707410374" />
+    <state width="1323" height="257" key="GridCell.Tab.0.right" timestamp="1668707410374">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="481" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668527756323" />
+    <state width="1323" height="257" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668707410374" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1668240852344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1668240852344" />
-    <state x="385" y="67" width="750" height="594" key="find.popup" timestamp="1668528739813">
+    <state x="385" y="67" width="750" height="594" key="find.popup" timestamp="1668700988301">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="385" y="67" width="750" height="594" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1668528739813" />
+    <state x="385" y="67" width="750" height="594" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1668700988301" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1668341076969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -472,6 +471,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$pandas_kill.coverage" NAME="pandas_kill Coverage Results" MODIFIED="1633702731474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysize" />
     <SUITE FILE_PATH="coverage/pythonProject$yj_house.coverage" NAME="yj_house Coverage Results" MODIFIED="1636469738222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
+    <SUITE FILE_PATH="coverage/pythonProject$request_bilibili.coverage" NAME="request_bilibili Coverage Results" MODIFIED="1668707057254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo" />
     <SUITE FILE_PATH="coverage/pythonProject$requests_more.coverage" NAME="requests_more Coverage Results" MODIFIED="1634560743976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_kanXiaoiejie" />
     <SUITE FILE_PATH="coverage/pythonProject$mysql_connector.coverage" NAME="mysql_connector Coverage Results" MODIFIED="1633970283907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/3_database_related" />
     <SUITE FILE_PATH="coverage/pythonProject$urllib_video.coverage" NAME="urllib_video Coverage Results" MODIFIED="1668525780514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo" />
