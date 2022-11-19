@@ -9,6 +9,7 @@ import requests
 import re
 import json
 import subprocess
+import random
 
 '''
 @title: request_bilibili
@@ -76,18 +77,38 @@ def run(url):
         print(e)
 
 
-def main():
-    # url = 'https://www.bilibili.com/video/BV1b24y1o7KM/'
+def main(default_video):
 
-    # url = 'https://www.bilibili.com/video/BV1Ve4y1s7Qs/'
-    # url = 'https://www.bilibili.com/video/BV1Ve4y1s7Qs?t=371.2'
-    print('[INFO]如果想下载默认视频，请直接按<<回车ENTER>>')
-    input_url = input('下载指定B站视频，请输入有效视频网址：\n')
+    print('默认视频链接是:')
+    for i in range(1,len(default_video) + 1):
+        print(f'第{i}个是：{default_video[i-1]}')
+    print('\n')
+    print('>>>>>>注意：如果想下载随机默认视频，请直接按<<回车ENTER>>')
+    input_url = input('>>>>>>注意：如果下载指定B站视频，请输入有效视频网址：\n')
+
     if input_url == '':
-       input_url = 'https://www.bilibili.com/video/BV1dZ4y1z7yP/'
+       input_url = random.choice(default_video)
 
-    # url = 'https://www.bilibili.com/video/BV1M14y1L7oe/?spm_id_from=333.1007.tianma.9-2-27.click&vd_source=fea1addec15c07bac90fb7f9f208e28e'
     run(input_url)
 
 if __name__ == '__main__':
-    main()
+    # 默认视频url清单
+    default_video = [
+        # 《漫步人生路》
+        'https://www.bilibili.com/bangumi/play/ep671201',
+        # 《简单爱》
+        'https://www.bilibili.com/video/BV1dZ4y1z7yP',
+        # 《稻香》
+        'https://www.bilibili.com/video/BV1WS4y1F7ky',
+        # 《爱的飞行日记》
+        'https://www.bilibili.com/video/BV18F411x7f9',
+        # 《画离弦》
+        'https://www.bilibili.com/video/BV1Mh411t7gT',
+        # 《谪仙》
+        'https://www.bilibili.com/video/BV1fv4y1m7dM',
+        # 《关山酒》
+        'https://www.bilibili.com/video/BV1WG4y1n7j5'
+    ]
+
+    # 执行程序
+    main(default_video)

@@ -10,7 +10,7 @@ __author__ = 'ruanshikao'
 @date 2022-11-19 13:34
 '''
 
-
+import random
 
 url = input("请输入url\n")
 
@@ -21,3 +21,12 @@ if url == '':
     print("url = ''")
 print(len(url))
 print(f'url={url}')
+
+
+default_video = [
+        'https://www.bilibili.com/bangumi/play/ep671201',
+        'https://www.bilibili.com/video/BV1dZ4y1z7yP/',
+        'https://www.bilibili.com/video/BV1M14y1L7oe'
+    ]
+
+print(random.choice(default_video))

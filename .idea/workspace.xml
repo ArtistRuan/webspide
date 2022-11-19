@@ -11,35 +11,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/ico.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/login_request_bilibili.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/request_bilibili.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/《青花瓷》国粤语双语翻唱！你更喜欢哪个版本呢？_哔哩哔哩_bilibili.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/《青花瓷》国粤语双语翻唱！你更喜欢哪个版本呢？_哔哩哔哩_bilibili.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/《青花瓷》国粤语双语翻唱！你更喜欢哪个版本呢？_哔哩哔哩_bilibili_20221119141206output.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/不悔梦归处，只恨太匆匆。_哔哩哔哩_bilibili.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/不悔梦归处，只恨太匆匆。_哔哩哔哩_bilibili.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/不悔梦归处，只恨太匆匆。_哔哩哔哩_bilibili_20221119133752output.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/也许是B站最好的Markdown科普教程15款顶级笔记软件测评推荐_哔哩哔哩_bilibili.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/也许是B站最好的Markdown科普教程15款顶级笔记软件测评推荐_哔哩哔哩_bilibili.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/也许是B站最好的Markdown科普教程15款顶级笔记软件测评推荐_哔哩哔哩_bilibili_20221119121748output.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/也许是B站最好的Markdown科普教程15款顶级笔记软件测评推荐_哔哩哔哩_bilibili_20221119123010output.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/也许是B站最好的Markdown科普教程15款顶级笔记软件测评推荐_哔哩哔哩_bilibili_output.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/也许是B站最好的Markdown科普教程15款顶级笔记软件测评推荐_哔哩哔哩_bilibilioutput.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/回到最初的美好！可爱女声治愈翻唱《稻香》_哔哩哔哩_bilibili.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/回到最初的美好！可爱女声治愈翻唱《稻香》_哔哩哔哩_bilibili.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/回到最初的美好！可爱女声治愈翻唱《稻香》_哔哩哔哩_bilibili_20221119142008output.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/看这种视频只会浪费你两分钟_哔哩哔哩_bilibili.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/看这种视频只会浪费你两分钟_哔哩哔哩_bilibili.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/看这种视频只会浪费你两分钟_哔哩哔哩_bilibili_20221119132756output.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/舍友：她这么幼稚怎么会有粉丝的？_哔哩哔哩_bilibili.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/舍友：她这么幼稚怎么会有粉丝的？_哔哩哔哩_bilibili.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/舍友：她这么幼稚怎么会有粉丝的？_哔哩哔哩_bilibili_20221119123323output.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo/replace_erro_file_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyinstaller/pyinstaller.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/ioc.ioc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/png.ioc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/ico.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/request_bilibili.py" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/request_bilibili.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/不悔梦归处，只恨太匆匆。_哔哩哔哩_bilibili.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/不悔梦归处，只恨太匆匆。_哔哩哔哩_bilibili.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/不悔梦归处，只恨太匆匆。_哔哩哔哩_bilibili_20221119133752output.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/也许是B站最好的Markdown科普教程15款顶级笔记软件测评推荐_哔哩哔哩_bilibili.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/也许是B站最好的Markdown科普教程15款顶级笔记软件测评推荐_哔哩哔哩_bilibili.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/也许是B站最好的Markdown科普教程15款顶级笔记软件测评推荐_哔哩哔哩_bilibili_20221119121530output.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/也许是B站最好的Markdown科普教程15款顶级笔记软件测评推荐_哔哩哔哩_bilibili_20221119121748output.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/也许是B站最好的Markdown科普教程15款顶级笔记软件测评推荐_哔哩哔哩_bilibili_output.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/也许是B站最好的Markdown科普教程15款顶级笔记软件测评推荐_哔哩哔哩_bilibilioutput.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/回到最初的美好！可爱女声治愈翻唱《稻香》_哔哩哔哩_bilibili.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/回到最初的美好！可爱女声治愈翻唱《稻香》_哔哩哔哩_bilibili.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/回到最初的美好！可爱女声治愈翻唱《稻香》_哔哩哔哩_bilibili_20221119142008output.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/看这种视频只会浪费你两分钟_哔哩哔哩_bilibili.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/看这种视频只会浪费你两分钟_哔哩哔哩_bilibili.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/看这种视频只会浪费你两分钟_哔哩哔哩_bilibili_20221119132756output.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/舍友：她这么幼稚怎么会有粉丝的？_哔哩哔哩_bilibili.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/舍友：她这么幼稚怎么会有粉丝的？_哔哩哔哩_bilibili.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili/video/舍友：她这么幼稚怎么会有粉丝的？_哔哩哔哩_bilibili_20221119123323output.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,7 +405,7 @@
       <workItem from="1668695652411" duration="7989000" />
       <workItem from="1668706968127" duration="431000" />
       <workItem from="1668707439234" duration="346000" />
-      <workItem from="1668825155460" duration="13037000" />
+      <workItem from="1668825155460" duration="16226000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
@@ -458,30 +453,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="111" y="224" key="GrepConsoleSound/0.0.1366.728@0.0.1366.728" timestamp="1668241272226" />
-    <state width="1323" height="260" key="GridCell.Tab.0.bottom" timestamp="1668838814570">
+    <state width="1323" height="260" key="GridCell.Tab.0.bottom" timestamp="1668842097181">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="260" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668838814570" />
-    <state width="1323" height="260" key="GridCell.Tab.0.center" timestamp="1668838814570">
+    <state width="1323" height="260" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668842097181" />
+    <state width="1323" height="260" key="GridCell.Tab.0.center" timestamp="1668842097180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="260" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668838814570" />
-    <state width="1323" height="260" key="GridCell.Tab.0.left" timestamp="1668838814569">
+    <state width="1323" height="260" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668842097180" />
+    <state width="1323" height="260" key="GridCell.Tab.0.left" timestamp="1668842097180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="260" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668838814569" />
-    <state width="1323" height="260" key="GridCell.Tab.0.right" timestamp="1668838814570">
+    <state width="1323" height="260" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668842097180" />
+    <state width="1323" height="260" key="GridCell.Tab.0.right" timestamp="1668842097181">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="260" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668838814570" />
+    <state width="1323" height="260" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668842097181" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1668240852344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1668240852344" />
-    <state x="385" y="67" width="816" height="594" key="find.popup" timestamp="1668838120579">
+    <state x="385" y="67" width="816" height="594" key="find.popup" timestamp="1668839735657">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="385" y="67" width="816" height="594" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1668838120579" />
+    <state x="385" y="67" width="816" height="594" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1668839735657" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1668341076969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -505,7 +500,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$request_bilibili.coverage" NAME="request_bilibili Coverage Results" MODIFIED="1668707656182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo" />
     <SUITE FILE_PATH="coverage/pythonProject$requests_more.coverage" NAME="requests_more Coverage Results" MODIFIED="1634560743976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_kanXiaoiejie" />
     <SUITE FILE_PATH="coverage/pythonProject$mysql_connector.coverage" NAME="mysql_connector Coverage Results" MODIFIED="1633970283907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/3_database_related" />
-    <SUITE FILE_PATH="coverage/pythonProject$request_bilibili__1_.coverage" NAME="request_bilibili (1) Coverage Results" MODIFIED="1668838800310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili" />
+    <SUITE FILE_PATH="coverage/pythonProject$request_bilibili__1_.coverage" NAME="request_bilibili (1) Coverage Results" MODIFIED="1668842003811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili" />
     <SUITE FILE_PATH="coverage/pythonProject$urllib_video.coverage" NAME="urllib_video Coverage Results" MODIFIED="1668525780514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo" />
     <SUITE FILE_PATH="coverage/pythonProject$urllib_video_366.coverage" NAME="urllib_video_366 Coverage Results" MODIFIED="1668527724181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366" />
     <SUITE FILE_PATH="coverage/pythonProject$makeup_monitor.coverage" NAME="makeup_monitor Coverage Results" MODIFIED="1634386323886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/makeup_nation_monitor" />
@@ -551,7 +546,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$async_flask.coverage" NAME="async_flask Coverage Results" MODIFIED="1650174276554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask" />
     <SUITE FILE_PATH="coverage/pythonProject$yj_house__1_.coverage" NAME="yj_house (1) Coverage Results" MODIFIED="1635784781310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/yj_gov_houses" />
     <SUITE FILE_PATH="coverage/pythonProject$python_excel.coverage" NAME="python_excel Coverage Results" MODIFIED="1634960966933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/1_about_excel" />
-    <SUITE FILE_PATH="coverage/pythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1668836222169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili" />
+    <SUITE FILE_PATH="coverage/pythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1668839800377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/request_bilibili" />
     <SUITE FILE_PATH="coverage/pythonProject$easy_mail.coverage" NAME="easy_mail Coverage Results" MODIFIED="1634049924689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/2_smtp_email" />
     <SUITE FILE_PATH="coverage/pythonProject$4k_pic.coverage" NAME="4k_pic Coverage Results" MODIFIED="1668183241450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/4k_pic" />
     <SUITE FILE_PATH="coverage/pythonProject$get_video_from_cctv366__1_.coverage" NAME="get_video_from_cctv366 (1) Coverage Results" MODIFIED="1668183438945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/cctv366" />
