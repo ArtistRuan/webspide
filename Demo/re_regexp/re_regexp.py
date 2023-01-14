@@ -34,3 +34,7 @@ print(re.findall('h.*?\.', key))  # ['hit.']
 # 匹配sas和saas
 key = 'saas and sas and saaas'
 print(re.findall('sa{1,2}s', key))  #{m,n}:表示m-n次，['saas', 'sas']
+
+# 占位符提取 2023
+key = '"processId":20230114,"name":"alex"'
+print(re.findall('"processId":(.*?)....,"',key))
