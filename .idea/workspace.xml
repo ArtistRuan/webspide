@@ -11,11 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/Demo/faker_data/faker_data_into_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/test/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataX/报备邮件.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/re_regexp/re_regexp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/re_regexp/re_regexp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/faker_data/faker_data_into_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/faker_data/faker_data_into_db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +391,7 @@
       <workItem from="1671871687367" duration="1235000" />
       <workItem from="1673680977416" duration="1815000" />
       <workItem from="1673682994024" duration="2026000" />
-      <workItem from="1673688848629" duration="3364000" />
+      <workItem from="1673688848629" duration="3852000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
@@ -443,22 +439,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="111" y="224" key="GrepConsoleSound/0.0.1366.728@0.0.1366.728" timestamp="1668241272226" />
-    <state width="1323" height="325" key="GridCell.Tab.0.bottom" timestamp="1673692217767">
+    <state width="1323" height="325" key="GridCell.Tab.0.bottom" timestamp="1673692631162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="325" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1673692217767" />
-    <state width="1323" height="325" key="GridCell.Tab.0.center" timestamp="1673692217767">
+    <state width="1323" height="325" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1673692631162" />
+    <state width="1323" height="325" key="GridCell.Tab.0.center" timestamp="1673692631162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="325" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1673692217767" />
-    <state width="1323" height="325" key="GridCell.Tab.0.left" timestamp="1673692217766">
+    <state width="1323" height="325" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1673692631162" />
+    <state width="1323" height="325" key="GridCell.Tab.0.left" timestamp="1673692631162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="325" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1673692217766" />
-    <state width="1323" height="325" key="GridCell.Tab.0.right" timestamp="1673692217767">
+    <state width="1323" height="325" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1673692631162" />
+    <state width="1323" height="325" key="GridCell.Tab.0.right" timestamp="1673692631162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="325" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1673692217767" />
+    <state width="1323" height="325" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1673692631162" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1671863874250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -507,7 +503,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$relativeDb.coverage" NAME="relativeDb Coverage Results" MODIFIED="1649952539839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connectDB" />
     <SUITE FILE_PATH="coverage/pythonProject$studentsys.coverage" NAME="studentsys Coverage Results" MODIFIED="1633846262366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vipSystem" />
     <SUITE FILE_PATH="coverage/pythonProject$58_second_houses.coverage" NAME="58_second_houses Coverage Results" MODIFIED="1634493140865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/58_second_houses" />
-    <SUITE FILE_PATH="coverage/pythonProject$faker_data_into_db.coverage" NAME="faker_data_into_db Coverage Results" MODIFIED="1673692217745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/faker_data" />
+    <SUITE FILE_PATH="coverage/pythonProject$faker_data_into_db.coverage" NAME="faker_data_into_db Coverage Results" MODIFIED="1673692383305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/faker_data" />
     <SUITE FILE_PATH="coverage/pythonProject$web_rank_douban.coverage" NAME="web_rank_douban Coverage Results" MODIFIED="1634469827279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_rank_douban" />
     <SUITE FILE_PATH="coverage/pythonProject$urllib_page.coverage" NAME="urllib_page Coverage Results" MODIFIED="1668525140854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo" />
     <SUITE FILE_PATH="coverage/pythonProject$asyncio_tongbu.coverage" NAME="asyncio_tongbu Coverage Results" MODIFIED="1650175096995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask" />

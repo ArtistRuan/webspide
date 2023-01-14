@@ -163,6 +163,7 @@ def main():
 
     """将lst数据批量插入数据库"""
     insert_db(cursor=cursor,conn=conn,lst=lst,sql=sql)
+    print(f"成功插入 {faker_data_quantity} 条数据")
 
     # 查看数据情况
     # for i in lst:
