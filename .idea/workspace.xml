@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change beforePath="$PROJECT_DIR$/Demo/faker_data/faker_data_into_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/faker_data/faker_data_into_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyautogui/pyautogui_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="263772e9-226e-444a-822d-a1853a85d2de" />
+  <component name="JupyterTrust" id="896d046b-b116-49e3-bd36-77a6f2681f74" />
   <component name="ProjectId" id="1yjCIKImNGPFPManBQydPp0DL2R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,13 +58,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\urllib_demo\page" />
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\urllib_demo\video" />
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\urllib_demo\pic" />
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\web_request_md" />
-      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\cctv366" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\request_bilibili" />
       <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request" />
@@ -71,30 +65,15 @@
       <recent name="G:\desktop\pythonProject\dist" />
       <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\async_flask" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\desktop\pythonProject\Demo" />
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\urllib_demo\page" />
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\urllib_demo\video" />
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\urllib_demo\pic" />
+      <recent name="G:\desktop\pythonProject\bilibiliParactise\4_request_spider\web_request\web_request_md" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.faker_data_into_db">
-    <configuration name="1_bubbleAlgorithm (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibiliParactise/7_algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibiliParactise/7_algorithm/1_bubbleAlgorithm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.pyautogui_test">
     <configuration name="faker_data_into_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,6 +140,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pyautogui_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyautogui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyautogui/pyautogui_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="re_regexp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pyautogui_test" />
+        <item itemvalue="Python.love" />
         <item itemvalue="Python.faker_data_into_db" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.re_regexp" />
-        <item itemvalue="Python.love" />
-        <item itemvalue="Python.1_bubbleAlgorithm (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +392,9 @@
       <workItem from="1671871687367" duration="1235000" />
       <workItem from="1673680977416" duration="1815000" />
       <workItem from="1673682994024" duration="2026000" />
-      <workItem from="1673688848629" duration="3852000" />
+      <workItem from="1673688848629" duration="4132000" />
+      <workItem from="1673783087784" duration="223000" />
+      <workItem from="1674043111183" duration="9873000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
@@ -439,22 +442,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="111" y="224" key="GrepConsoleSound/0.0.1366.728@0.0.1366.728" timestamp="1668241272226" />
-    <state width="1323" height="325" key="GridCell.Tab.0.bottom" timestamp="1673692631162">
+    <state width="1323" height="210" key="GridCell.Tab.0.bottom" timestamp="1674053888533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="325" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1673692631162" />
-    <state width="1323" height="325" key="GridCell.Tab.0.center" timestamp="1673692631162">
+    <state width="1323" height="210" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1674053888533" />
+    <state width="1323" height="210" key="GridCell.Tab.0.center" timestamp="1674053888533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="325" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1673692631162" />
-    <state width="1323" height="325" key="GridCell.Tab.0.left" timestamp="1673692631162">
+    <state width="1323" height="210" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1674053888533" />
+    <state width="1323" height="210" key="GridCell.Tab.0.left" timestamp="1674053888533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="325" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1673692631162" />
-    <state width="1323" height="325" key="GridCell.Tab.0.right" timestamp="1673692631162">
+    <state width="1323" height="210" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1674053888533" />
+    <state width="1323" height="210" key="GridCell.Tab.0.right" timestamp="1674053888533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="325" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1673692631162" />
+    <state width="1323" height="210" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1674053888533" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1671863874250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -502,8 +505,9 @@
     <SUITE FILE_PATH="coverage/pythonProject$ask.coverage" NAME="ask Coverage Results" MODIFIED="1634831749494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/test" />
     <SUITE FILE_PATH="coverage/pythonProject$relativeDb.coverage" NAME="relativeDb Coverage Results" MODIFIED="1649952539839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connectDB" />
     <SUITE FILE_PATH="coverage/pythonProject$studentsys.coverage" NAME="studentsys Coverage Results" MODIFIED="1633846262366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vipSystem" />
+    <SUITE FILE_PATH="coverage/pythonProject$pyautogui_test.coverage" NAME="pyautogui_test Coverage Results" MODIFIED="1674053888510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyautogui" />
     <SUITE FILE_PATH="coverage/pythonProject$58_second_houses.coverage" NAME="58_second_houses Coverage Results" MODIFIED="1634493140865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/58_second_houses" />
-    <SUITE FILE_PATH="coverage/pythonProject$faker_data_into_db.coverage" NAME="faker_data_into_db Coverage Results" MODIFIED="1673692383305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/faker_data" />
+    <SUITE FILE_PATH="coverage/pythonProject$faker_data_into_db.coverage" NAME="faker_data_into_db Coverage Results" MODIFIED="1673692725809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/faker_data" />
     <SUITE FILE_PATH="coverage/pythonProject$web_rank_douban.coverage" NAME="web_rank_douban Coverage Results" MODIFIED="1634469827279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_rank_douban" />
     <SUITE FILE_PATH="coverage/pythonProject$urllib_page.coverage" NAME="urllib_page Coverage Results" MODIFIED="1668525140854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/web_request/urllib_demo" />
     <SUITE FILE_PATH="coverage/pythonProject$asyncio_tongbu.coverage" NAME="asyncio_tongbu Coverage Results" MODIFIED="1650175096995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask" />
@@ -516,7 +520,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$asyncio_yibu.coverage" NAME="asyncio_yibu Coverage Results" MODIFIED="1650175223705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/async_flask" />
     <SUITE FILE_PATH="coverage/pythonProject$myqr_demo.coverage" NAME="myqr_demo Coverage Results" MODIFIED="1640924259551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/1_myqr" />
     <SUITE FILE_PATH="coverage/pythonProject$paddbleHub.coverage" NAME="paddbleHub Coverage Results" MODIFIED="1633708996488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdnParactise/3_paddlehub" />
-    <SUITE FILE_PATH="coverage/pythonProject$love.coverage" NAME="love Coverage Results" MODIFIED="1671871997112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/heartbeat/love" />
+    <SUITE FILE_PATH="coverage/pythonProject$love.coverage" NAME="love Coverage Results" MODIFIED="1674043224360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/heartbeat/love" />
     <SUITE FILE_PATH="coverage/pythonProject$hive_connector.coverage" NAME="hive_connector Coverage Results" MODIFIED="1637598046903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/3_database_related" />
     <SUITE FILE_PATH="coverage/pythonProject$Demo.coverage" NAME="Demo Coverage Results" MODIFIED="1634318445472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/pythonProject$bs4_sanguo_book.coverage" NAME="bs4_sanguo_book Coverage Results" MODIFIED="1634484018072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibiliParactise/4_request_spider/sanguo_book" />
