@@ -11,6 +11,7 @@ __author__ = 'ruanshikao'
 '''
 
 import pyautogui
+import pyperclip
 from typing import Text
 import time
 
@@ -46,21 +47,77 @@ def mouse_scroll():
 
 def button_alert():
     """alert related"""
-    password_info = pyautogui.password(text='',title='',default='123456',mask='*')
+    password_info = pyautogui.password(text='',title='',default='',mask='*')
     # pyautogui.write("hello world",interval=1)
-    pyautogui.typewrite("hello world",interval=1)
+    # pyautogui.typewrite("hello world",interval=1)
     print(password_info)
+
+    confirm_button = pyautogui.confirm(text='',title='',buttons=['ok','6',9])
+    print(confirm_button)
 
     alert_info = pyautogui.alert(text='程序开始了吗？',title='弹窗信息',button='OK')
     print(alert_info)
+
+def click_and_input():
+
+    time.sleep(2)
+    input_info1 = "中文测试"
+    input_info2 = 'hello world'
+    pyperclip.copy(input_info1)
+    pyautogui.hotkey('win','r')
+    pyautogui.sleep(1)
+    pyautogui.typewrite('cmd')
+    # pyautogui.sleep(1)
+    pyautogui.press('Enter')
+    pyautogui.press('Enter')
+    pyautogui.sleep(1)
+    pyautogui.typewrite(input_info2)
+    pyautogui.sleep(1)
+    pyautogui.hotkey('ctrl','v')
+    for i in range(len(input_info1) + len(input_info2)):
+        # pyautogui.sleep(1)
+        pyautogui.press('Backspace')
+    pyautogui.typewrite('exit')
+    # pyautogui.sleep(1)
+    pyautogui.press('Enter')
+    pyautogui.press('Enter')
+
+
+def key_action():
+    pyautogui.keyDown('win')
+    pyautogui.keyDown('r')
+    pyautogui.keyUp('win')
+    pyautogui.keyUp('r')
+    pyautogui.keyDown('Enter')
+    pyautogui.keyUp('Enter')
+    # x,y = pyautogui.position()
+    # pyautogui.click(x,y)
+    pyautogui.sleep(2)
+    # pyautogui.typewrite('exit')
+    pyautogui.press('Enter')
+    pyautogui.press('Enter')
+    pyautogui.typewrite(r'C:\Users\Alex\AppData\Local\Google\Chrome\Application\chrome.exe')
+    pyautogui.press('Enter')
+    pyautogui.press('Enter')
+
+
+    pyautogui.press('Enter')
+
+def open_google():
+    pass
 
 def main():
     pyautogui.FAILSAFE = False  # 关闭自动防故障功能，左上角的坐标为（0，0），将鼠标移到屏幕的左上角，来抛出failSafeException异常
     # run_pyautogui()
     # search_current_position()
     # mouse_action()
-    # mouse_scroll()
-    button_alert()
+    # mouse_scroll()exit
+    # button_alert()
+    key_action()
+    # click_and_input()
+
+
+    # open_google()
 
 
 if __name__ == '__main__':
