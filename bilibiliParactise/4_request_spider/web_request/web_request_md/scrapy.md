@@ -1,5 +1,7 @@
 ## 企业级数据挖掘爬虫scrapy
 
+![](scrapyPipeline.png)
+
 ### 安装scrapy
 
 在cmd执行
