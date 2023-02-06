@@ -9,4 +9,8 @@ import scrapy
 class Scrapydemo58Item(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+
+    house_name = scrapy.Field()
+    house_address = scrapy.Field()
+    house_unit_price = scrapy.Field()
+

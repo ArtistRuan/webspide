@@ -11,16 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82629de9-8171-4db4-83c3-303fbf581168" name="Default Changelist" comment="no message">
-      <change afterPath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/spiders/example58.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/spiders/houses.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapyDemo202301/Scrapy爬虫讲习.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/scrapyDemo202301/Scrapy爬虫讲习.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/spiders/example58.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapyDemo202301/scrapyDemo58/scrapyDemo58/spiders/example58.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="094c2875-2618-4d4c-857a-c4f104cbf34d" />
+  <component name="JupyterTrust" id="4835aeb3-8c6c-46c7-8e47-f913f83405f4" />
   <component name="ProjectId" id="1yjCIKImNGPFPManBQydPp0DL2R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -407,7 +403,9 @@
       <workItem from="1675080766066" duration="1683000" />
       <workItem from="1675254042140" duration="2078000" />
       <workItem from="1675259540373" duration="2239000" />
-      <workItem from="1675342291708" duration="4579000" />
+      <workItem from="1675342291708" duration="4813000" />
+      <workItem from="1675611576319" duration="1553000" />
+      <workItem from="1675683100197" duration="9209000" />
     </task>
     <task id="LOCAL-00001" summary="no message">
       <created>1636192122618</created>
@@ -455,22 +453,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="111" y="224" key="GrepConsoleSound/0.0.1366.728@0.0.1366.728" timestamp="1675263113909" />
-    <state width="1323" height="210" key="GridCell.Tab.0.bottom" timestamp="1675348350248">
+    <state width="1323" height="210" key="GridCell.Tab.0.bottom" timestamp="1675349985848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="210" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1675348350248" />
-    <state width="1323" height="210" key="GridCell.Tab.0.center" timestamp="1675348350247">
+    <state width="1323" height="210" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1675349985848" />
+    <state width="1323" height="210" key="GridCell.Tab.0.center" timestamp="1675349985848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="210" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1675348350247" />
-    <state width="1323" height="210" key="GridCell.Tab.0.left" timestamp="1675348350247">
+    <state width="1323" height="210" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1675349985848" />
+    <state width="1323" height="210" key="GridCell.Tab.0.left" timestamp="1675349985848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="210" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1675348350247" />
-    <state width="1323" height="210" key="GridCell.Tab.0.right" timestamp="1675348350247">
+    <state width="1323" height="210" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1675349985848" />
+    <state width="1323" height="210" key="GridCell.Tab.0.right" timestamp="1675349985848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="210" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1675348350247" />
+    <state width="1323" height="210" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1675349985848" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1674139760619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -491,14 +489,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1671863874250" />
-    <state x="385" y="67" width="816" height="594" key="find.popup" timestamp="1673690062063">
+    <state x="385" y="67" width="816" height="594" key="find.popup" timestamp="1675692254408">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="385" y="67" width="816" height="594" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1673690062063" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1674135498159">
+    <state x="385" y="67" width="816" height="594" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1675692254408" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1675687708252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1674135498159" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1675687708252" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
